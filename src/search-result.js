@@ -2,10 +2,39 @@ import React, {Component} from 'react'
 import './css/SearchResult.css'
 import './css/SearchResultItems.css'
 
+
+class CarCharacteristic extends Component{
+    constructor(props){
+        super(props)
+    }
+
+    render(){
+        return(
+            <div className="col-md-6 single-car-feature">
+                <i className="fa fa-check-circle-o" />{" "}
+                    <a
+                        href="http://qserviceexp.com/new/car-feature/portabotellas/"
+                        rel="tag"
+                    >
+                        {this.props.text}
+                    </a>
+            </div>
+        );
+    }
+}
+
 class SearchResultItem extends Component{
     constructor(props){
         super(props)
     }
+
+    showCharacteristics = () => {
+        var results = [];
+        this.props.data.characteristics.forEach(function(ch){
+            results.push(<CarCharacteristic text={ch} />);
+        });
+        return results;
+    };
 
     render(){
         var data = this.props.data
@@ -64,124 +93,10 @@ class SearchResultItem extends Component{
                                         </div>
                                         </a>
                                         <div className="post-category-comment-date row">
+
+
                                         <div className="single-post-tags">
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/portabotellas/"
-                                                rel="tag"
-                                            >
-                                                3 Portabotellas
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/aire-acondicionado/"
-                                                rel="tag"
-                                            >
-                                                Aire acondicionado
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/bluetooth/"
-                                                rel="tag"
-                                            >
-                                                Bluetooth
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/cabeceras-delanteras/"
-                                                rel="tag"
-                                            >
-                                                Cabeceras delanteras
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/calefaccion/"
-                                                rel="tag"
-                                            >
-                                                Calefacción
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/cristales-electricos/"
-                                                rel="tag"
-                                            >
-                                                Cristales eléctricos
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/portadocumentos/"
-                                                rel="tag"
-                                            >
-                                                Portadocumentos
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/portamonedas/"
-                                                rel="tag"
-                                            >
-                                                Portamonedas
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/portavasos-desplegables/"
-                                                rel="tag"
-                                            >
-                                                Portavasos desplegables
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/portavasos-fijos/"
-                                                rel="tag"
-                                            >
-                                                Portavasos fijos 2
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/reproductor-cd/"
-                                                rel="tag"
-                                            >
-                                                Reproductor de CD
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/revisteros/"
-                                                rel="tag"
-                                            >
-                                                Revisteros
-                                            </a>
-                                            </div>
-                                            <div className="col-md-6 single-car-feature">
-                                            <i className="fa fa-check-circle-o" />{" "}
-                                            <a
-                                                href="http://qserviceexp.com/new/car-feature/sistema-audio/"
-                                                rel="tag"
-                                            >
-                                                Sistema de audio AM/FM
-                                            </a>
-                                            </div>
+                                            {this.showCharacteristics()}
                                         </div>
         
         
@@ -195,7 +110,7 @@ class SearchResultItem extends Component{
                                             width={30}
                                             />
                                             <span className="car_number_passengers_value">
-                                            4 Pasajeros
+                                            {data.passengersCapacity} Pasajeros
                                             </span>
                                         </span>
                                         <span className="col-md-4 text-left car_luggage">
@@ -206,7 +121,7 @@ class SearchResultItem extends Component{
                                             width={30}
                                             />
                                             <span className="car_luggage_value">
-                                            5 Maletas
+                                            {data.equipmentCapacity} Maletas
                                             </span>
                                         </span>
                                         <span className="col-md-4 text-left car_gearbox">
@@ -217,7 +132,7 @@ class SearchResultItem extends Component{
                                             width={30}
                                             />
                                             <span className="car_gearbox_value">
-                                            Manual
+                                            {data.transmisionType}
                                             </span>
                                         </span>
                                         </div>
@@ -312,7 +227,7 @@ class SearchResult extends Component{
     constructor(){
         super()
         this.state = {
-            data: JSON.parse('[ { "reservationURL":"carro1", "carName":"carro1", "carImage":"no image", "cost":999, "rentalModality":"per year" }, { "reservationURL":"xd12", "carName":"No Car1331", "carImage":"no image", "cost":666, "rentalModality":"per month" }, { "reservationURL":"xd1424", "carName":"No Car65641", "carImage":"no image", "cost":333, "rentalModality":"per day" } ]')
+            data: JSON.parse('[ { "reservationURL":"carro1", "carName":"carro1", "carImage":"no image", "cost":999, "rentalModality":"per year", "passengersCapacity":6, "equipmentCapacity":4, "transmisionType":"Manual", "characteristics":[ "Char 1", "Char 2", "Char 3" ] }, { "reservationURL":"carro2", "carName":"carro2", "carImage":"no image", "cost":333, "rentalModality":"per day", "passengersCapacity":2, "equipmentCapacity":1, "transmisionType":"Automatico", "characteristics":[ "Char 1", "Char 2", "Char 3" ] } ]')
         };
     }
 

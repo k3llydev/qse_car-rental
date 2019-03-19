@@ -1,0 +1,32 @@
+[
+    {  
+      "reservationURL":"carro1",
+      "carName":"carro1",
+      "carImage":"no image",
+      "cost":999,
+      "rentalModality":"per year",
+      "passengersCapacity":6,
+      "equipmentCapacity":4,
+      "transmisionType":"Manual",
+      "characteristics":[  
+         "Char 1",
+         "Char 2",
+         "Char 3"
+      ]
+    },
+    {  
+        "reservationURL":"carro2",
+        "carName":"carro2",
+        "carImage":"no image",
+        "cost":333,
+        "rentalModality":"per day",
+        "passengersCapacity":2,
+        "equipmentCapacity":1,
+        "transmisionType":"Automatico",
+        "characteristics":[  
+           "Char 1",
+           "Char 2",
+           "Char 3"
+        ]
+      }
+]
