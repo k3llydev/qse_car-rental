@@ -6,7 +6,6 @@ class SearchResult extends Component{
 
     constructor(){
         super()
-        
     }
 
     resultElement(data){
@@ -185,7 +184,7 @@ class SearchResult extends Component{
                                     </div>
                                 </div>
 
-                                
+
                                 </div>
                                 <div className="mt_car--important-features col-md-12">
                                 <span className="col-md-4 text-left car_number_passengers">
