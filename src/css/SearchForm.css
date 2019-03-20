@@ -1,0 +1,17 @@
+#SearchForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 50%;
+    padding: 20px;
+    background: #F00;
+}
+
+#RoundTrip, #OneWayTrip{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: calc(100%/2);
+    text-align: center;
+}

@@ -15,7 +15,7 @@ class SearchBar extends Component{
     alt
   />
   <div className="container search_area_inner">
-    <h3 className="text-center">1 Car Found</h3>
+    <h3 className="text-center">X Car(s) Found</h3>
     <div className="mt-car-search">
       <form method="GET" action="http://qserviceexp.com/new/">
         <input type="hidden" name="post_type" defaultValue="mt_car" />

@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu.woff2');
+}
+
 body{
+    font-family: 'Ubuntu';
     margin: 0px;
     padding: 0px;
 }
