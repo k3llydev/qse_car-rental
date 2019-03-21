@@ -5,13 +5,35 @@
     width: 50%;
     padding: 20px;
     background: #F00;
+    border-radius: 15px;
 }
 
 #RoundTrip, #OneWayTrip{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     padding: 15px;
     width: calc(100%/2);
     text-align: center;
+    background: #000;
+    color: #FFF;
+    border: 3px solid #FFD601;
 }
+
+#RoundTrip:hover, #OneWayTrip:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    #SearchForm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        width: 100%;
+        padding: 20px;
+        background: #00F;
+        border-radius: 15px;
+    }
+  }

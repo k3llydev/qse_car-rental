@@ -30,11 +30,11 @@ class Home extends Component{
             <div>
                 <div id="SearchForm">
                     <div id="TripTypeSelector">
-                        <div id="RoundTrip">
-                            Ida y vuelta
+                        <div id="RoundTrip" onclick={this.showRoundTrip}>
+                            REDONDO
                         </div>
-                        <div id="OneWayTrip">
-                            Solo ida
+                        <div id="OneWayTrip" onclick={this.showOneWayTrip}>
+                            SOLO IDA
                         </div>
                     </div>
                     <SearchForm />
