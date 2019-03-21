@@ -1,0 +1,31 @@
+[  
+   {  
+      "label":"Sedan",
+      "options":[  
+         {  
+            "value":"1",
+            "label":"VW VENTO MAN",
+            "color":"#00B8D9"
+         },
+         {  
+            "value":"2",
+            "label":"VW VENTO AUT",
+            "color":"#0052CC"
+         },
+         {  
+            "value":"3",
+            "label":"VW JETTA AUT",
+            "color":"#5243AA"
+         }
+      ]
+   },
+   {  
+      "label":"Other",
+      "options":[  
+         {  
+            "value":"4",
+            "label":"TOYOTA HICE AUT"
+         }
+      ]
+   }
+]

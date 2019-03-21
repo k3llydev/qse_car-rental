@@ -1,16 +1,41 @@
 import React, {Component} from 'react'
 import './css/Home.css'
 import './css/Header.css'
-import './css/SearchForm.css'
-import Select from 'react-select'
+import './css/SearchForm.css' //FORM
+import Select from 'react-select' //FORM
+import { colourOptions, groupedOptions } from './data'; //FORM
+import FormData from './vehicles-format.json'
 
-const scaryAnimals = [
-    { label: "Pequeño", value: 1 },
-    { label: "Mediano", value: 2 },
-    { label: "Grande", value: 3 }
-  ];
+//const FormDataArray = JSON.parse(FormData);
 
-  class Home extends Component{
+const groupStyles = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  };
+  const groupBadgeStyles = {
+    backgroundColor: '#EBECF0',
+    borderRadius: '2em',
+    color: '#172B4D',
+    display: 'inline-block',
+    fontSize: 12,
+    fontWeight: 'normal',
+    lineHeight: '1',
+    minWidth: 1,
+    padding: '0.16666666666667em 0.5em',
+    textAlign: 'center',
+  };
+  
+  const formatGroupLabel = data => (
+    <div style={groupStyles}>
+      <span>{data.label}</span>
+      <span style={groupBadgeStyles}>{data.options.length}</span>
+    </div>
+  );
+
+console.log(JSON.stringify(groupedOptions))
+
+class Home extends Component{
 
     render(){
         return(
@@ -31,11 +56,17 @@ class SearchForm extends Component{
             round: true
         };
     }
-    
-    callsx(){
+
+    RoundTripShow(){
         this.setState({
-			round: !this.state.round
-		});
+            round: true
+        });
+    }
+
+    OneWayTripShow(){
+        this.setState({
+            round: false
+        });
     }
 
     render(){
@@ -48,20 +79,17 @@ class SearchForm extends Component{
 		}
         return(
             <div id="SearchForm">
-                    <div id="TripTypeSelector">
-                        <div id="RoundTrip" onClick={this.callsx.bind(this)}>
+            <center><h2>Reserve ahora su vehículo</h2></center>
+                    {/* <div id="TripTypeSelector">
+                        <div id="RoundTrip" className="noselect" onClick={this.RoundTripShow.bind(this)}>
                             REDONDO
                         </div>
-                        <div id="OneWayTrip" onClick={this.callsx.bind(this)}>
+                        <div id="OneWayTrip" className="noselect" onClick={this.OneWayTripShow.bind(this)}>
                             SOLO IDA
                         </div>
-                    </div>
-                    <form action="search/">
-                        <h2 style={ shown }>Round trip form</h2>
-				        <h2 style={ hidden }>One way trip form</h2>
-                        {/* <Select placeholder="Categoría" options={scaryAnimals} /> */}
-                        <input type="submit" value="Buscar" />
-                    </form>
+                    </div> */}
+                        <RoundTrip />
+                        {/* <OneWayTrip style={ hidden } /> */}
             </div>
         );
     }
@@ -71,40 +99,70 @@ class SearchForm extends Component{
 
 
 
-class SearchType extends Component{
-
+class RoundTrip extends Component{
     constructor(props){
         super(props)
         this.state = {
-            round: true
+            error: null,
+            isLoaded: false,
+            items: []
         };
     }
 
-    toggleForm(){
-        this.state = {
-            round: false
-        };
+    componentDidMount(){
+        fetch("https://api.example.com/items")
+        .then(res => res.json())
+        .then(
+            (result) => {
+            this.setState({
+                isLoaded: true,
+                items: result.items
+            });
+            },
+            // Note: it's important to handle errors here
+            // instead of a catch() block so that we don't swallow
+            // exceptions from actual bugs in components.
+            (error) => {
+            this.setState({
+                isLoaded: true,
+                error
+            });
+            }
+        )
     }
-    
 
     render(){
-        var shown = {
-			display: this.state.round ? "block" : "none"
-		};
-		
-		var hidden = {
-			display: this.state.round ? "none" : "block"
-		}
         return(
-            <div>
-				<h2 style={ shown }>Round trip form</h2>
-				<h2 style={ hidden }>One way trip form</h2>
-			</div>
+            <form style={this.props.style} action="search/">
+                <Select
+                    // defaultValue={colourOptions[1]}
+                    options={groupedOptions}
+                    formatGroupLabel={formatGroupLabel}
+                />
+                <input type="submit" value="Buscar" />
+            </form>
         );
     }
 }
 
-
+class OneWayTrip extends Component{
+    constructor(props){
+        super(props)
+    }
+    render(){
+        return(
+            <form style={this.props.style} method="GET" action="search/">
+                One way trip form
+                <Select
+                    defaultValue={colourOptions[1]}
+                    options={groupedOptions}
+                    formatGroupLabel={formatGroupLabel}
+                />
+                <input type="submit" value="Buscar" />
+            </form>
+        );
+    }
+}
 
 
 export default Home;

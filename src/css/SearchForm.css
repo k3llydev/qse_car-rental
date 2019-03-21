@@ -28,12 +28,9 @@
 
 @media screen and (max-width: 600px) {
     #SearchForm{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2%;
+        margin-top: 20%;
         width: 100%;
         padding: 20px;
         background: #00F;
-        border-radius: 15px;
     }
   }
