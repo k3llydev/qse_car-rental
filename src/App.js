@@ -7,7 +7,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
         <SearchBar />
         <div className="high-padding">
           <SearchResult />
