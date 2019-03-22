@@ -1,0 +1,646 @@
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.1.1 ; media=all */
+@media all{
+.vc_clearfix:after,.vc_column-inner::after,.vc_row:after{clear:both;}
+.vc_row:after,.vc_row:before{content:" ";display:table;}
+.vc_column_container{width:100%;}
+.vc_row{margin-left:-15px;margin-right:-15px;}
+.vc_col-sm-1,.vc_col-sm-10,.vc_col-sm-12,.vc_col-sm-4{position:relative;min-height:1px;padding-left:15px;padding-right:15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+@media (min-width:768px){
+.vc_col-sm-1,.vc_col-sm-10,.vc_col-sm-12,.vc_col-sm-4{float:left;}
+.vc_col-sm-12{width:100%;}
+.vc_col-sm-10{width:83.33333333%;}
+.vc_col-sm-4{width:33.33333333%;}
+.vc_col-sm-1{width:8.33333333%;}
+}
+.vc_clearfix:after,.vc_clearfix:before{content:" ";display:table;}
+.wpb_text_column :last-child,.wpb_text_column p:last-child{margin-bottom:0;}
+.wpb_content_element{margin-bottom:35px;}
+.vc_row.vc_row-no-padding .vc_column-inner{padding-left:0;padding-right:0;}
+.vc_row[data-vc-full-width]{-webkit-transition:opacity .5s ease;-o-transition:opacity .5s ease;transition:opacity .5s ease;overflow:hidden;}
+.vc_column-inner::after,.vc_column-inner::before{content:" ";display:table;}
+.vc_col-has-fill>.vc_column-inner,.vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner,.vc_row-has-fill>.vc_column_container>.vc_column-inner{padding-top:35px;}
+.vc_column_container{padding-left:0;padding-right:0;}
+.vc_column_container>.vc_column-inner{box-sizing:border-box;padding-left:15px;padding-right:15px;width:100%;}
+.wpb_single_image img{height:auto;max-width:100%;vertical-align:top;}
+.wpb_single_image .vc_single_image-wrapper{display:inline-block;vertical-align:top;max-width:100%;}
+.wpb_single_image.vc_align_center{text-align:center;}
+.wpb_single_image .vc_figure{display:inline-block;vertical-align:top;margin:0;max-width:100%;}
+.wpb_animate_when_almost_visible{opacity:0;filter:alpha(opacity=0);}
+.bottom-to-top,.wpb_bottom-to-top{-webkit-animation:wpb_btt .7s 1 cubic-bezier(.175,.885,.32,1.275);-o-animation:wpb_btt .7s 1 cubic-bezier(.175,.885,.32,1.275);animation:wpb_btt .7s 1 cubic-bezier(.175,.885,.32,1.275);}
+.appear,.wpb_appear{-webkit-animation:wpb_appear .7s 1 cubic-bezier(.175,.885,.32,1.275);-o-animation:wpb_appear .7s 1 cubic-bezier(.175,.885,.32,1.275);animation:wpb_appear .7s 1 cubic-bezier(.175,.885,.32,1.275);-webkit-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);}
+.wpb_start_animation{opacity:1;filter:alpha(opacity=100);}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/plugins/modeltheme-framework/inc/shortcodes/shortcodes.css?ver=4.9.10 ; media=all */
+@media all{
+/*! @import http://qserviceexp.com/new/wp-content/plugins/modeltheme-framework/inc/shortcodes/mt-bootstrap-button/mt-bootstrap-button.css */
+.button-winona.btn.btn-lg{color:#ffffff;padding:15px 45px;border:none;border-radius:30px;text-transform:uppercase;font-weight:bold;font-size:18px;font-family:"Ubuntu";}
+.btn-warning{background-color:#e67e22;}
+.btn-warning{border:0 none;}
+/*! end @import */
+/*! @import http://qserviceexp.com/new/wp-content/plugins/modeltheme-framework/inc/shortcodes/mt-cars-searchform/mt-cars-searchform.css */
+.mt-car-search .select2-container .select2-selection--single{height:44px;}
+.mt-car-search .submit .form-control{height:44px;border-radius:0px;border:0px;background-color:#FFD600;color:#252525;font-weight:900;margin:20px 0px;}
+.mt-car-search .form-control{height:44px;margin:20px 0px;}
+.mt-car-search .select2-container--default .select2-selection--single .select2-selection__arrow{height:42px;}
+.mt-car-search .select2-container--default .select2-selection--single .select2-selection__rendered{line-height:45px;text-align:center;font-weight:bold!important;text-align:left;padding-left:20px;}
+.mt-car-search .select2-container--default .select2-selection--single .select2-selection__arrow b{left:0%;}
+.mt-car-search .search-field.form-control{border:0 none;border-radius:0;font-weight:bold;padding:0 0 0 20px;width:calc(100% - 20px);}
+.mt-car-search .select2-container--default .select2-selection--single{border-radius:0px;border:0px;}
+.mt-car-search .select2.select2-container.select2-container--default{margin:20px 0px;}
+/*! end @import */
+/*! @import http://qserviceexp.com/new/wp-content/plugins/modeltheme-framework/inc/shortcodes/mt-video/magnific-popup.css */
+button::-moz-focus-inner{padding:0;border:0;}
+/*! end @import */
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/plugins/modeltheme-framework/css/mt-mega-menu.css?ver=4.9.10 ; media=all */
+@media all{
+#navbar .menu-item > a{position:relative;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/plugins/modeltheme-framework/css/select2.min.css?ver=4.9.10 ; media=all */
+@media all{
+.select2-container{box-sizing:border-box;display:inline-block;margin:0;position:relative;vertical-align:middle;}
+.select2-container .select2-selection--single{box-sizing:border-box;cursor:pointer;display:block;height:28px;user-select:none;-webkit-user-select:none;}
+.select2-container .select2-selection--single .select2-selection__rendered{display:block;padding-left:8px;padding-right:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.select2-hidden-accessible{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;}
+.select2-container--default .select2-selection--single{background-color:#fff;border:1px solid #aaa;border-radius:4px;}
+.select2-container--default .select2-selection--single .select2-selection__rendered{color:#444;line-height:28px;}
+.select2-container--default .select2-selection--single .select2-selection__arrow{height:26px;position:absolute;top:1px;right:1px;width:20px;}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{border-color:#888 transparent transparent transparent;border-style:solid;border-width:5px 4px 0 4px;height:0;left:50%;margin-left:-4px;margin-top:-2px;position:absolute;top:50%;width:0;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/style.css?ver=4.9.10 ; media=all */
+@media all{
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body{margin:0;}
+article,aside,figure,footer,header,main,nav{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+b{font-weight:bold;}
+img{border:0;}
+button,input,select{color:inherit;font:inherit;margin:0;}
+button{overflow:visible;}
+button,select{text-transform:none;}
+button,input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+input{line-height:normal;}
+input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box;}
+img{max-width:100%;}
+p{color:rgb(69, 70, 70);font-size:15px;font-weight:300;line-height:1.63043em;}
+.navbar{margin-bottom:0;border:0 none;border-radius:0;}
+.form-control{background-color:#fff;background-image:none;border:2px solid rgba(204, 204, 204, 0.5);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;color:#555;display:block;font-size:14px;height:42px;line-height:1.42857;padding:6px 40px;transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;width:100%;}
+.widget-title{margin-bottom:15px;}
+.widget-title{font-size:24px;margin-top:10px;padding-bottom:5px;margin-bottom:20px;border-bottom:1px solid #d5dadd;position:relative;}
+.widget-title:after{content:"";display:block;position:absolute;left:0;bottom:-2px;width:150px;height:3px;}
+.vc_row{background-size:cover;}
+.wpb_content_element{margin:20px 0;}
+.button-winona{border-radius:4px;vertical-align:middle;position:relative;display:inline-block;-webkit-backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;}
+.button-winona{overflow:hidden;padding:0;-webkit-transition:border-color 0.3s, background-color 0.3s;transition:border-color 0.3s, background-color 0.3s;-webkit-transition-timing-function:cubic-bezier(0.2, 1, 0.3, 1);transition-timing-function:cubic-bezier(0.2, 1, 0.3, 1);}
+.button-winona::after{content:attr(data-text);position:absolute;width:100%;height:100%;top:0;left:0;opacity:0;color:#FFF;-webkit-transform:translate3d(0, 25%, 0);transform:translate3d(0, 25%, 0);padding:10px 15px;}
+.button-winona::after{-webkit-transition:-webkit-transform 0.8s, opacity 0.8s;transition:transform 0.8s, opacity 0.8s;-webkit-transition-timing-function:cubic-bezier(0.2, 1, 0.3, 1);transition-timing-function:cubic-bezier(0.2, 1, 0.3, 1);}
+.button-winona:hover::after{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}
+.wpb_row{margin-bottom:80px;}
+.lang-item{position:relative;left:200px;}
+#nav_menu-5 .lang-item{display:none;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.1.1 ; media=all */
+@media all{
+.fa{display:inline-block;}
+.fa{font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-map-marker:before{content:"\f041";}
+.fa-shopping-cart:before{content:"\f07a";}
+.fa-phone:before{content:"\f095";}
+.fa-twitter:before{content:"\f099";}
+.fa-facebook:before{content:"\f09a";}
+.fa-envelope:before{content:"\f0e0";}
+.fa-instagram:before{content:"\f16d";}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/responsive.css?ver=4.9.10 ; media=all */
+@media all{
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+body{margin:0;}
+article,aside,figure,footer,header,main,nav{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+b{font-weight:bold;}
+h1{font-size:2em;margin:0.67em 0;}
+img{border:0;}
+figure{margin:1em 40px;}
+button,input,select{color:inherit;font:inherit;margin:0;}
+button{overflow:visible;}
+button,select{text-transform:none;}
+button,input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+input{line-height:normal;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+@media print{
+*,*:before,*:after{background:transparent!important;color:#000!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+p,h2,h3{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+select{background:#fff!important;}
+.navbar{display:none;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff;}
+input,button,select{font-family:inherit;font-size:inherit;line-height:inherit;}
+a{color:#337ab7;text-decoration:none;}
+a:hover,a:focus{color:#23527c;text-decoration:underline;}
+a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+figure{margin:0;}
+img{vertical-align:middle;}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;}
+h1,h2,h3{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
+h1,h2,h3{margin-top:20px;margin-bottom:10px;}
+h1{font-size:36px;}
+h2{font-size:30px;}
+h3{font-size:24px;}
+p{margin:0 0 10px;}
+.text-center{text-align:center;}
+ul{margin-top:0;margin-bottom:10px;}
+.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
+@media (min-width:768px){
+.container{width:750px;}
+}
+@media (min-width:992px){
+.container{width:970px;}
+}
+@media (min-width:1200px){
+.container{width:1170px;}
+}
+.row{margin-left:-15px;margin-right:-15px;}
+.col-md-2,.col-md-3,.col-md-4,.col-md-6,.col-md-8,.col-md-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px;}
+@media (min-width:992px){
+.col-md-2,.col-md-3,.col-md-4,.col-md-6,.col-md-8,.col-md-12{float:left;}
+.col-md-12{width:100%;}
+.col-md-8{width:66.66666667%;}
+.col-md-6{width:50%;}
+.col-md-4{width:33.33333333%;}
+.col-md-3{width:25%;}
+.col-md-2{width:16.66666667%;}
+}
+input[type="search"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-webkit-transition:border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);}
+.form-control::-moz-placeholder{color:#999;opacity:1;}
+.form-control:-ms-input-placeholder{color:#999;}
+.form-control::-webkit-input-placeholder{color:#999;}
+input[type="search"]{-webkit-appearance:none;}
+.btn{display:inline-block;margin-bottom:0;font-weight:normal;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.btn:focus,.btn:active:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+.btn:hover,.btn:focus{color:#333;text-decoration:none;}
+.btn:active{outline:0;background-image:none;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);}
+.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236;}
+.btn-warning:hover,.btn-warning:focus,.btn-warning:active{color:#fff;background-color:#ec971f;border-color:#d58512;}
+.btn-warning:active{background-image:none;}
+.btn-lg{padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px;}
+.collapse{display:none;visibility:hidden;}
+.navbar{position:relative;min-height:50px;margin-bottom:20px;border:1px solid transparent;}
+@media (min-width:768px){
+.navbar{border-radius:4px;}
+}
+@media (min-width:768px){
+.navbar-header{float:left;}
+}
+.navbar-collapse{overflow-x:visible;padding-right:15px;padding-left:15px;border-top:1px solid transparent;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);-webkit-overflow-scrolling:touch;}
+@media (min-width:768px){
+.navbar-collapse{border-top:0;-webkit-box-shadow:none;box-shadow:none;}
+.navbar-collapse.collapse{display:block!important;visibility:visible!important;height:auto!important;padding-bottom:0;overflow:visible!important;}
+}
+.navbar-toggle{position:relative;float:right;margin-right:15px;padding:9px 10px;margin-top:8px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent;border-radius:4px;}
+.navbar-toggle:focus{outline:0;}
+.navbar-toggle .icon-bar{display:block;width:22px;height:2px;border-radius:1px;}
+.navbar-toggle .icon-bar+.icon-bar{margin-top:4px;}
+@media (min-width:768px){
+.navbar-toggle{display:none;}
+}
+.navbar-default{background-color:#f8f8f8;border-color:#e7e7e7;}
+.navbar-default .navbar-toggle{border-color:#ddd;}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#ddd;}
+.navbar-default .navbar-toggle .icon-bar{background-color:#888;}
+.navbar-default .navbar-collapse{border-color:#e7e7e7;}
+.container:before,.container:after,.row:before,.row:after,.navbar:before,.navbar:after,.navbar-header:before,.navbar-header:after,.navbar-collapse:before,.navbar-collapse:after{content:" ";display:table;}
+.container:after,.row:after,.navbar:after,.navbar-header:after,.navbar-collapse:after{clear:both;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/media-screens.css?ver=4.9.10 ; media=all */
+@media all{
+@media only screen and (max-width: 319px){
+footer .footer-top  .widget .widget-title{margin-bottom:10px;}
+footer .widget.widget_text{margin-bottom:20px;}
+body header .navbar-header h1.logo{max-width:140px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+h2.vc_custom_heading{font-size:40px!important;}
+header .navbar-toggle{margin-top:45px!important;}
+}
+@media only screen and (max-width: 767px){
+header .navbar-toggle{margin-top:21px!important;}
+body .navbar-header h1.logo{margin:0px 0 20px!important;}
+.logo img,.navbar-header .logo img{margin-top:24px;}
+header.header1{height:78px!important;}
+.navbar-collapse .menu .menu-item{text-align:left;}
+body #modeltheme-main-head{display:inline-table;height:auto;padding:0;}
+body header #navbar .menu-item > a{padding:0 15px!important;}
+header .navbar-header h1.logo{margin:20px 10px;max-width:200px;text-align:left;}
+body .navbar-header .logo{margin:10px 0;text-align:center;}
+footer p.copyright{padding-top:0;text-align:center;}
+body .navbar-default .navbar-collapse{border-color:rgba(0, 0, 0, 0);}
+.navbar-collapse li{width:100%;}
+.header_mini_cart{display:none;}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:transparent;}
+.logo{margin:15px 0;}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle{border:2px solid #fff;margin:21px 10px;transition:all 300ms ease-in-out;-o-transition:all 300ms ease-in-out;-ms-transition:all 300ms ease-in-out;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;}
+#navbar .menu-item > a{padding:15px 10px 24px;}
+.logo img,.navbar-header .logo img{max-width:180px;}
+.navbar-default .navbar-toggle .icon-bar{background:#00adf1;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+footer p.copyright{padding-top:0;text-align:center;}
+}
+@media screen and (max-width: 1000px){
+footer .footer-top h1.widget-title{margin-bottom:5px;margin-top:20px;}
+.logo{margin:15px 0;}
+}
+@media only screen and (max-width: 1024px){
+footer aside{float:left;width:100%;}
+body .navbar-header{width:100%;float:none;text-align:center;}
+body .navbar-default .navbar-collapse{width:100%;}
+body header #navbar .menu-item > a{padding:0 15px;}
+body .navbar-header h1.logo{margin:30px 0 10px;}
+body #modeltheme-main-head{padding:0;}
+footer{padding:0 15px;}
+footer .social-links{text-align:center;}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1367px){
+body header .header-nav-actions{padding:0;}
+}
+@media only screen and (max-width: 990px){
+.mt-car-search .select2.select2-container.select2-container--default{width:100%!important;}
+.mt-car-search .search-field.form-control{width:88%!important;}
+}
+@media only screen and (min-width: 768px) and (max-width: 990px){
+#navbar .menu > .menu-item:first-child > a{padding:18px 18px!important;}
+}
+@media only screen and (min-width: 991px) and (max-width: 1024px){
+#navbar .menu > .menu-item:first-child > a{padding:18px 18px!important;}
+}
+@media (max-width: 1200px){
+#navbar .menu-item > a{font-size:13px!important;}
+p.copyright{font-size:12px!important;}
+}
+@media (max-width: 992px){
+footer p.copyright{line-height:50px;}
+footer .social-links{float:none!important;line-height:50px!important;}
+.container.footer{text-align:center;}
+a.logo-footer{line-height:50px!important;}
+.footer-div-parent .footer{padding-bottom:20px;padding-top:20px;}
+}
+@media (max-width: 479px){
+p.copyright{line-height:30px!important;}
+}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/animate.css?ver=4.9.10 ; media=all */
+@media all{
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn;}
+.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/styles.css?ver=4.9.10 ; media=all */
+@media all{
+html,body{height:100%;width:100%;}
+body{overflow-x:hidden;}
+*{word-wrap:break-word;}
+a,a:hover,a:focus{text-decoration:none;outline:none;}
+img{max-width:100%;height:auto;}
+footer .contact-details{border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;}
+.wpb_column{height:auto;}
+.form-control{border-color:rgb(0, 173, 241);border-width:2px;color:rgba(85, 85, 85, 0.8);font-size:15px;font-style:italic;font-weight:300;height:auto;padding:10px;}
+input[type="search"],input[type="submit"]{-webkit-appearance:none;}
+#modeltheme-main-head{width:100%;z-index:200;clear:both;border:0 none;}
+body .wpb_content_element{margin:0;}
+.navbar{margin-bottom:0;}
+.page article.type-page{padding:80px 0;}
+.page .no-padding article.type-page{padding:0;}
+.widget_nav_menu ul{padding-left:5px;}
+.textwidget{color:#252525;}
+.widget_nav_menu li,.widget_nav_menu li a{color:#252525;font-weight:400;}
+h1.widget-title,.widget-title{color:#ffffff;}
+.form-control,#modeltheme-main-head,.search-field,.btn-lg,.btn{border-radius:0;-o-border-radius:0;-ms-border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+figure{max-width:100%;}
+.services-home2 img{max-width:45px;}
+.btn.btn-warning{background-color:#FFBA41;color:#ffffff;}
+.navbar-default{background-color:#f5f5f5;}
+.logo img,.navbar-header .logo img{max-width:140px;}
+::selection{color:#ffffff;background:#ffd600;}
+::-moz-selection{color:#ffffff;background:#ffd600;}
+a{color:#ffd600;}
+a,a:hover,a:focus,footer ul.menu li.menu-item a:hover{color:#ffd600;}
+.widget-title:after,.navbar-default .navbar-toggle .icon-bar,footer .footer-top .menu .menu-item a::before{background:#ffd600;}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle{border-color:#ffd600;}
+body .shop_cart > a{padding:20px 12px!important;}
+.shop_cart{transition:all 400ms ease 0s;-o-transition:all 400ms ease 0s;-moz-transition:all 400ms ease 0s;-webkit-transition:all 400ms ease 0s;-ms-transition:all 400ms ease 0s;}
+.header_mini_cart{background:#f5f5f5;position:absolute;padding:15px;opacity:0;width:250px;top:150%;right:15px;transition:all 400ms ease 0s;-o-transition:all 400ms ease 0s;-moz-transition:all 400ms ease 0s;-webkit-transition:all 400ms ease 0s;-ms-transition:all 400ms ease 0s;visibility:hidden;}
+.shop_cart{transition:all 400ms ease 0s;-o-transition:all 400ms ease 0s;-moz-transition:all 400ms ease 0s;-webkit-transition:all 400ms ease 0s;-ms-transition:all 400ms ease 0s;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/styles-headers.css?ver=4.9.10 ; media=all */
+@media all{
+header .navbar-toggle{border:3px solid #ffffff;border-radius:0;margin-top:35px;}
+#navbar .menu-item:hover > a{background:transparent;}
+.navbar-default{border:0 none;}
+header nav ul{display:inline-table;}
+header #navbar > div:first-child{display:inline-table;text-align:left;width:auto;}
+body .shop_cart > a:hover{color:#252525;}
+header.header1 .header-nav-actions .shop_cart i{font-size:20px;color:#252525;}
+header.header1 .header-nav-actions .shop_cart{float:right;padding:35px 40px;margin:0px;list-style:none;background:#FFD600;}
+.navbar-header h1.logo{margin:22px 0 22px 20px;position:relative;left:10px;}
+.header1 #navbar{text-align:center;}
+header.header1 .header-nav-actions{padding-right:0px;float:right;}
+nav ul li{display:inline-block;}
+nav ul{list-style:none;margin:0;padding:0;}
+.logo a{font-weight:900;color:#FFFFFF;letter-spacing:1.5px;text-decoration:none;}
+.logo a:hover{color:#ffffff;}
+.navbar-header .logo{margin:18px 0;}
+nav{background:#2f383d;}
+.menu .menu-item{display:inline-block;}
+.navbar-header .logo > a:hover,.navbar-header .logo > a{color:#000;}
+#navbar .menu-item > a{display:block;font-size:14px;font-weight:bold;line-height:34px;padding:29px 18px;-webkit-transition:all 250ms ease-in-out;transition:all 250ms ease-in-out 0s;}
+#modeltheme-main-head{box-shadow:0 0 8px 5px rgba(0, 0, 0, 0.12);-webkit-box-shadow:0 0 8px 5px rgba(0, 0, 0, 0.12);}
+#modeltheme-main-head > div{position:relative;}
+header{background-color:#252525;}
+#navbar .menu > .menu-item:first-child > a{padding-left:0;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/styles-footer.css?ver=4.9.10 ; media=all */
+@media all{
+footer .footer-top h1.widget-title,footer .footer-top .widget-title{font-weight:bold;font-size:24px;margin-bottom:25px;}
+footer .social-links *{color:rgb(255, 255, 255);display:inline-table;list-style:outside none none;transition:all 250ms ease-in-out;-webkit-transition:all 250ms ease-in-out;margin-left:3px;}
+.contact-details i{padding-right:10px;}
+footer .social-links{margin:15px 0;padding:0;}
+footer .social-links i{font-size:13px;margin:0;}
+footer .social-links a:hover{opacity:0.8;}
+footer .contact-details p{color:rgba(255,255,255,0.7);font-size:14px;font-weight:300;margin:0 0 4px;opacity:1;padding:5px 0px;}
+footer{background:#393939;}
+.footer-top .widget_nav_menu li{text-align:left;width:100%;padding:5px 0px;}
+footer .footer-top .menu .menu-item a::before{content:"";height:15px;left:-9px;position:absolute;top:3px;width:2px;}
+.footer-top .widget-title:after{display:none;}
+.footer-top .widget-title{border:0 none;margin-bottom:12px;padding:0;}
+.footer-top .widget_nav_menu ul{margin:0;padding:0;}
+footer .footer-top .menu .menu-item a::after{content:"";}
+footer .footer-top .menu .menu-item a{margin-left:0px;font-size:14px;color:rgba(255,255,255,0.7)!important;opacity:1;}
+footer .footer-top .menu .menu-item a:before{background:none!important;}
+.footer-top h1.widget-title,.footer-top .widget-title{font-weight:400;margin:5px 0;}
+nav ul li{display:inline-block;position:relative;}
+nav ul{list-style:none;margin:0;padding:0;}
+footer .footer{padding:0 15px;}
+.footer-top h1.widget-title,.footer-top .widget-title{margin-top:0;}
+p.copyright{color:rgb(255, 255, 255);font-size:14px;margin:15px 0;}
+footer .textwidget > p:last-child{margin-bottom:0;}
+footer{background:#252525;padding-bottom:50px;}
+footer p{color:#383737;font-size:20px;}
+footer .textwidget p{color:#fff;font-size:14px;}
+footer .widget_nav_menu li::before{font-family:fontawesome;margin-right:8px;}
+footer .widget_nav_menu li,footer .widget_nav_menu li a{color:#fff;opacity:0.9;font-weight:300;}
+footer .menu .menu-item a{color:#b4bbc2;font-size:17px;font-weight:300;letter-spacing:normal;line-height:normal;margin-left:5px;margin-right:5px;padding:0;position:relative;text-transform:none;}
+footer .menu .menu-item a:after{content:'/';display:block;font-size:12px;position:absolute;top:0;right:-10px;color:rgba(255, 255, 255, 0.8);}
+.footer-div-parent{position:relative;background-color:#252525;}
+.footer-div-parent .footer{margin:0 auto;border-radius:10px;}
+p.copyright{line-height:90px;margin:0;}
+footer .social-links{margin:0;padding:0;line-height:90px;float:right;}
+a.logo-footer img{max-width:180px;}
+a.logo-footer{line-height:90px;}
+footer .social-links a{border:2px solid rgba(255, 255, 255, 0.7);border-radius:50%;height:30px;line-height:26px;text-align:center;width:30px;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/js_composer.css?ver=4.9.10 ; media=all */
+@media all{
+.container:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.row:after,.vc_clearfix:after,.vc_column-inner::after,.vc_row:after{clear:both;}
+.container:after,.container:before,.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before,.row:after,.row:before,.vc_row:after,.vc_row:before{content:" ";display:table;}
+.vc_column_container{width:100%;}
+.vc_row{margin-left:-15px;margin-right:-15px;}
+.vc_col-sm-1,.vc_col-sm-10,.vc_col-sm-12,.vc_col-sm-4{position:relative;min-height:1px;padding-left:15px;padding-right:15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+@media (min-width:768px){
+.vc_col-sm-1,.vc_col-sm-10,.vc_col-sm-12,.vc_col-sm-4{float:left;}
+.vc_col-sm-12{width:100%;}
+.vc_col-sm-10{width:83.33333333%;}
+.vc_col-sm-4{width:33.33333333%;}
+.vc_col-sm-1{width:8.33333333%;}
+}
+.vc_clearfix:after,.vc_clearfix:before{content:" ";display:table;}
+.wpb_text_column :last-child,.wpb_text_column p:last-child{margin-bottom:0;}
+.wpb_content_element{margin-bottom:35px;}
+.vc_row.vc_row-no-padding .vc_column-inner{padding-left:0;padding-right:0;}
+.vc_row[data-vc-full-width]{-webkit-transition:opacity .5s ease;-o-transition:opacity .5s ease;transition:opacity .5s ease;overflow:hidden;}
+.vc_column-inner::after,.vc_column-inner::before{content:" ";display:table;}
+.vc_col-has-fill>.vc_column-inner,.vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner,.vc_row-has-fill>.vc_column_container>.vc_column-inner{padding-top:35px;}
+.vc_column_container{padding-left:0;padding-right:0;}
+.vc_column_container>.vc_column-inner{box-sizing:border-box;padding-left:15px;padding-right:15px;width:100%;}
+.wpb_single_image img{height:auto;max-width:100%;vertical-align:top;}
+.wpb_single_image .vc_single_image-wrapper{display:inline-block;vertical-align:top;max-width:100%;}
+.wpb_single_image.vc_align_center{text-align:center;}
+.wpb_single_image .vc_figure{display:inline-block;vertical-align:top;margin:0;max-width:100%;}
+.wpb_animate_when_almost_visible{opacity:0;filter:alpha(opacity=0);}
+.wpb_start_animation.wpb_bottom-to-top{-webkit-animation:wpb_btt .7s 1 cubic-bezier(.175,.885,.32,1.275);-o-animation:wpb_btt .7s 1 cubic-bezier(.175,.885,.32,1.275);animation:wpb_btt .7s 1 cubic-bezier(.175,.885,.32,1.275);opacity:1;filter:alpha(opacity=100);}
+.wpb_start_animation.wpb_appear{-webkit-animation:wpb_appear .7s 1 cubic-bezier(.175,.885,.32,1.275);-o-animation:wpb_appear .7s 1 cubic-bezier(.175,.885,.32,1.275);animation:wpb_appear .7s 1 cubic-bezier(.175,.885,.32,1.275);-webkit-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);opacity:1;filter:alpha(opacity=100);}
+}
+/*! CSS Used from: Embedded */
+.logo img,.navbar-header .logo img{max-width:140px;}
+::selection{color:#ffffff;background:#0081bb;}
+::-moz-selection{color:#ffffff;background:#0081bb;}
+a{color:#ffd600;}
+a:focus,a:visited,a:hover{color:#252525;}
+a,a:hover,a:focus,footer ul.menu li.menu-item a:hover{color:#0081bb;}
+header.header1 .header-nav-actions .shop_cart,.widget-title:after,.navbar-default .navbar-toggle .icon-bar,footer .footer-top .menu .menu-item a::before{background:#ffd600;}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle{border-color:#0081bb;}
+/*! CSS Used from: Embedded */
+.vc_custom_1493982041432 .wpb_single_image img{width:80px!important;}
+.page-id-869 .wpb_text_column.wpb_content_element{min-height:80px;}
+.vc_custom_1492780403758 .wpb_text_column p{color:#0081BB!important;font-weight:400!important;}
+footer,footer .footer-top{background:#03548B!important;}
+.footer-div-parent,footer .footer{position:relative;background-color:#042D49!important;}
+footer .footer-top h1.widget-title,footer .footer-top .widget-title{color:white!important;font-size:18px!important;}
+#text-2 > h1{font-size:22px!important;}
+.footer-top .container{width:92%;padding-left:50px;}
+.sidebar-2 aside{display:inline-block;width:45%;}
+footer .footer-top .menu .menu-item a{margin-left:0px;font-size:14px;color:white!important;opacity:1;font-weight:300;text-transform:capitalize;}
+footer .contact-details p{color:white;font-size:14px;font-weight:300;margin:0 0 4px;opacity:1;padding:5px 0px;}
+.button-winona{margin-top:15px!important;}
+/*! CSS Used from: Embedded */
+#navbar .menu-item > a{color:#252525;}
+#navbar .menu-item:hover > a{color:#ffd600;}
+body{font-family:Ubuntu;opacity:1;visibility:visible;-webkit-transition:opacity 0.24s ease-in-out;-moz-transition:opacity 0.24s ease-in-out;transition:opacity 0.24s ease-in-out;}
+h1{font-family:Ubuntu;font-size:36px;opacity:1;visibility:visible;-webkit-transition:opacity 0.24s ease-in-out;-moz-transition:opacity 0.24s ease-in-out;transition:opacity 0.24s ease-in-out;}
+h2{font-family:Ubuntu;font-size:30px;opacity:1;visibility:visible;-webkit-transition:opacity 0.24s ease-in-out;-moz-transition:opacity 0.24s ease-in-out;transition:opacity 0.24s ease-in-out;}
+h3{font-family:Ubuntu;font-size:24px;opacity:1;visibility:visible;-webkit-transition:opacity 0.24s ease-in-out;-moz-transition:opacity 0.24s ease-in-out;transition:opacity 0.24s ease-in-out;}
+input{font-family:Ubuntu;opacity:1;visibility:visible;-webkit-transition:opacity 0.24s ease-in-out;-moz-transition:opacity 0.24s ease-in-out;transition:opacity 0.24s ease-in-out;}
+input[type="submit"]{font-family:Ubuntu;opacity:1;visibility:visible;-webkit-transition:opacity 0.24s ease-in-out;-moz-transition:opacity 0.24s ease-in-out;transition:opacity 0.24s ease-in-out;}
+.navbar-default{background-color:#fff;}
+header{color:#FFFFFF;}
+footer .footer-top{background-color:#252525;}
+footer .footer-top h1.widget-title,footer .footer-top .widget-title{color:#3c78d8;}
+.footer-row-1{padding-top:90px;padding-bottom:90px;}
+.footer-row-1{margin-top:0;margin-bottom:0;}
+.footer-row-1{border-top:0px solid #515b5e;border-bottom:0px solid #515b5e;border-left:0px solid #515b5e;border-right:0px solid #515b5e;}
+footer .footer{background-color:#303030;}
+/*! CSS Used from: Embedded */
+.vc_custom_1543111827923{margin-top:0px!important;margin-bottom:0px!important;padding-top:80px!important;padding-bottom:100px!important;}
+.vc_custom_1493982041432{margin-top:0px!important;margin-bottom:0px!important;background-color:#252525!important;}
+.vc_custom_1492780385525{margin-top:0px!important;margin-bottom:0px!important;padding-top:136px!important;padding-bottom:0px!important;background-color:#ffffff!important;}
+.vc_custom_1492780396308{margin-top:0px!important;margin-bottom:0px!important;padding-top:0px!important;padding-bottom:0px!important;background-color:#ffffff!important;}
+.vc_custom_1492780403758{margin-top:0px!important;margin-bottom:0px!important;padding-top:20px!important;padding-bottom:143px!important;background-color:#ffffff!important;}
+.vc_custom_1492777967907{margin-top:0px!important;margin-right:0px!important;margin-bottom:0px!important;margin-left:0px!important;padding-top:115px!important;padding-right:0px!important;padding-bottom:160px!important;padding-left:0px!important;}
+.vc_custom_1492682264649{padding-top:70px!important;padding-right:30px!important;padding-bottom:90px!important;padding-left:30px!important;background-color:#252525!important;}
+.vc_custom_1492682278720{padding-top:70px!important;padding-right:30px!important;padding-bottom:90px!important;padding-left:30px!important;background-color:#202020!important;}
+.vc_custom_1492682290097{padding-top:70px!important;padding-right:30px!important;padding-bottom:90px!important;padding-left:30px!important;background-color:#252525!important;}
+.vc_custom_1492777609582{padding-top:0px!important;padding-bottom:0px!important;}
+.vc_custom_1492773786521{padding-top:0px!important;}
+.vc_custom_1543093888365{margin-top:4px!important;margin-bottom:30px!important;}
+.vc_custom_1543093912908{margin-top:10px!important;}
+.vc_custom_1543093961252{margin-top:10px!important;}
+.vc_custom_1543093923129{margin-top:10px!important;}
+.vc_custom_1543093970134{margin-top:10px!important;}
+.vc_custom_1543093933027{margin-top:10px!important;}
+.vc_custom_1543093981282{margin-top:10px!important;}
+/*! CSS Used from: Embedded */
+.modeltheme_button .btn_custom_5c954271b249a{background:#ffd600!important;background:-moz-linear-gradient(top, #ffd600 0%, #ffd600 0%, #ffd600 0%, #ffd600 0%, #ffd600 100%, #ffd600 100%, #ffd600 100%)!important;background:-webkit-linear-gradient(top, #ffd600 0%,#ffd600 0%,#ffd600 0%,#ffd600 0%,#ffd600 100%,#ffd600 100%,#ffd600 100%)!important;background:linear-gradient(to bottom, #ffd600 0%,#ffd600 0%,#ffd600 0%,#ffd600 0%,#ffd600 100%,#ffd600 100%,#ffd600 100%)!important;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffd600, endColorstr=#ffd600,GradientType=0 )!important;transform:scale(1.0);transition:all 400ms ease-in-out 0s;-ms-transformtransition:all 400ms ease-in-out 0s;-webkit-transformtransition:all 400ms ease-in-out 0s;}
+.modeltheme_button .button-winona:hover{transform:scale(1.03);transition:all 400ms ease-in-out 0s;-ms-transformtransition:all 400ms ease-in-out 0s;-webkit-transformtransition:all 400ms ease-in-out 0s;}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/plugins/parallax-backgrounds-for-vc/parallax/css/style.css?ver=4.3 ; media=all */
+@media all{
+.gambit_parallax_inner{min-height:150px;-webkit-backface-visibility:hidden;backface-visibility:hidden;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.1.1 ; media=all */
+@media all{
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn;}
+.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp;}
+}
+/*! CSS Used keyframes */
+@-webkit-keyframes wpb_btt{0%{-webkit-transform:translate(0,10%);opacity:0;filter:alpha(opacity=0);}100%{-webkit-transform:translate(0,0);opacity:1;filter:alpha(opacity=100);}}
+@-moz-keyframes wpb_btt{0%{-moz-transform:translate(0,10%);opacity:0;filter:alpha(opacity=0);}100%{-moz-transform:translate(0,0);opacity:1;filter:alpha(opacity=100);}}
+@-o-keyframes wpb_btt{0%{-o-transform:translate(0,10%);opacity:0;filter:alpha(opacity=0);}100%{-o-transform:translate(0,0);opacity:1;filter:alpha(opacity=100);}}
+@keyframes wpb_btt{0%{-webkit-transform:translate(0,10%);-ms-transform:translate(0,10%);-o-transform:translate(0,10%);transform:translate(0,10%);opacity:0;filter:alpha(opacity=0);}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);-o-transform:translate(0,0);transform:translate(0,0);opacity:1;filter:alpha(opacity=100);}}
+@-webkit-keyframes wpb_btt{0%{-webkit-transform:translate(0,10%);opacity:0;filter:alpha(opacity=0);}100%{-webkit-transform:translate(0,0);opacity:1;filter:alpha(opacity=100);}}
+@-moz-keyframes wpb_btt{0%{-moz-transform:translate(0,10%);opacity:0;filter:alpha(opacity=0);}100%{-moz-transform:translate(0,0);opacity:1;filter:alpha(opacity=100);}}
+@-o-keyframes wpb_btt{0%{-o-transform:translate(0,10%);opacity:0;filter:alpha(opacity=0);}100%{-o-transform:translate(0,0);opacity:1;filter:alpha(opacity=100);}}
+@keyframes wpb_btt{0%{-webkit-transform:translate(0,10%);-ms-transform:translate(0,10%);-o-transform:translate(0,10%);transform:translate(0,10%);opacity:0;filter:alpha(opacity=0);}100%{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);-o-transform:translate(0,0);transform:translate(0,0);opacity:1;filter:alpha(opacity=100);}}
+@-webkit-keyframes wpb_appear{0%{-webkit-transform:scale(.5);opacity:.1;filter:alpha(opacity=10);}100%{-webkit-transform:scale(1);opacity:1;filter:alpha(opacity=100);}}
+@-moz-keyframes wpb_appear{0%{-moz-transform:scale(.5);opacity:.1;filter:alpha(opacity=10);}100%{-moz-transform:scale(1);opacity:1;filter:alpha(opacity=100);}}
+@-o-keyframes wpb_appear{0%{-o-transform:scale(.5);opacity:.1;filter:alpha(opacity=10);}100%{-o-transform:scale(1);opacity:1;filter:alpha(opacity=100);}}
+@keyframes wpb_appear{0%{-webkit-transform:scale(.5);-ms-transform:scale(.5);-o-transform:scale(.5);transform:scale(.5);opacity:.1;filter:alpha(opacity=10);}100%{-webkit-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);opacity:1;filter:alpha(opacity=100);}}
+@-webkit-keyframes wpb_appear{0%{-webkit-transform:scale(.5);opacity:.1;filter:alpha(opacity=10);}100%{-webkit-transform:scale(1);opacity:1;filter:alpha(opacity=100);}}
+@-moz-keyframes wpb_appear{0%{-moz-transform:scale(.5);opacity:.1;filter:alpha(opacity=10);}100%{-moz-transform:scale(1);opacity:1;filter:alpha(opacity=100);}}
+@-o-keyframes wpb_appear{0%{-o-transform:scale(.5);opacity:.1;filter:alpha(opacity=10);}100%{-o-transform:scale(1);opacity:1;filter:alpha(opacity=100);}}
+@keyframes wpb_appear{0%{-webkit-transform:scale(.5);-ms-transform:scale(.5);-o-transform:scale(.5);transform:scale(.5);opacity:.1;filter:alpha(opacity=10);}100%{-webkit-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);opacity:1;filter:alpha(opacity=100);}}
+@-webkit-keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+@keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+@-webkit-keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+@keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0, 100%, 0);transform:translate3d(0, 100%, 0);}100%{opacity:1;-webkit-transform:none;transform:none;}}
+@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0, 100%, 0);-ms-transform:translate3d(0, 100%, 0);transform:translate3d(0, 100%, 0);}100%{opacity:1;-webkit-transform:none;-ms-transform:none;transform:none;}}
+@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);}100%{opacity:1;-webkit-transform:none;transform:none;}}
+@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);}100%{opacity:1;-webkit-transform:none;transform:none;}}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej75l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej7wl0miFYxnu4w.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej74l0miFYxnu4w.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej73l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej76l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej70l0miFYxn.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1Czjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKew72nU6AF7xm.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcw72nU6AF7xm.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfA72nU6AF7xm.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcQ72nU6AF7xm.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3js2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKew72nU6AF7xm.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcw72nU6AF7xm.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfA72nU6AF7xm.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcQ72nU6AF7xm.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej75l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej7wl0miFYxnu4w.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej74l0miFYxnu4w.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej73l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej76l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej70l0miFYxn.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1Czjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKew72nU6AF7xm.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcw72nU6AF7xm.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfA72nU6AF7xm.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcQ72nU6AF7xm.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3js2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:FontAwesome;src:url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.eot?v=4.6.3);src:url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.eot#iefix&v=4.6.3) format('embedded-opentype'),url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3) format('woff2'),url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff?v=4.6.3) format('woff'),url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.ttf?v=4.6.3) format('truetype'),url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular) format('svg');font-weight:400;font-style:normal;}

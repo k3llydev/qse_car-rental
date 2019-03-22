@@ -7,10 +7,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <SearchBar />
+        {/* <SearchBar />
         <div className="high-padding">
           <SearchResult />
-        </div>
+        </div> */}
       </div>
     );
   }

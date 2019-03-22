@@ -1,0 +1,300 @@
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/style.css?ver=4.9.10 ; media=all */
+@media all{
+aside,footer{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+img{border:0;}
+img{max-width:100%;}
+p{color:rgb(69, 70, 70);font-size:15px;font-weight:300;line-height:1.63043em;}
+.widget-title{margin-bottom:15px;}
+.widget-title{font-size:24px;margin-top:10px;padding-bottom:5px;margin-bottom:20px;border-bottom:1px solid #d5dadd;position:relative;}
+.widget-title:after{content:"";display:block;position:absolute;left:0;bottom:-2px;width:150px;height:3px;}
+.lang-item{position:relative;left:200px;}
+#nav_menu-5 .lang-item{display:none;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.1.1 ; media=all */
+@media all{
+.fa{display:inline-block;}
+.fa{font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-map-marker:before{content:"\f041";}
+.fa-phone:before{content:"\f095";}
+.fa-twitter:before{content:"\f099";}
+.fa-facebook:before{content:"\f09a";}
+.fa-envelope:before{content:"\f0e0";}
+.fa-instagram:before{content:"\f16d";}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/responsive.css?ver=4.9.10 ; media=all */
+@media all{
+aside,footer{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+h1{font-size:2em;margin:0.67em 0;}
+img{border:0;}
+@media print{
+*,*:before,*:after{background:transparent!important;color:#000!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+p{orphans:3;widows:3;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+a{color:#337ab7;text-decoration:none;}
+a:hover,a:focus{color:#23527c;text-decoration:underline;}
+a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+img{vertical-align:middle;}
+h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
+h1{margin-top:20px;margin-bottom:10px;}
+h1{font-size:36px;}
+p{margin:0 0 10px;}
+.text-center{text-align:center;}
+ul{margin-top:0;margin-bottom:10px;}
+.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
+@media (min-width:768px){
+.container{width:750px;}
+}
+@media (min-width:992px){
+.container{width:970px;}
+}
+@media (min-width:1200px){
+.container{width:1170px;}
+}
+.row{margin-left:-15px;margin-right:-15px;}
+.col-md-2,.col-md-3,.col-md-4,.col-md-6,.col-md-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px;}
+@media (min-width:992px){
+.col-md-2,.col-md-3,.col-md-4,.col-md-6,.col-md-12{float:left;}
+.col-md-12{width:100%;}
+.col-md-6{width:50%;}
+.col-md-4{width:33.33333333%;}
+.col-md-3{width:25%;}
+.col-md-2{width:16.66666667%;}
+}
+.container:before,.container:after,.row:before,.row:after{content:" ";display:table;}
+.container:after,.row:after{clear:both;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/media-screens.css?ver=4.9.10 ; media=all */
+@media all{
+@media only screen and (max-width: 319px){
+footer .footer-top  .widget .widget-title{margin-bottom:10px;}
+footer .widget.widget_text{margin-bottom:20px;}
+}
+@media only screen and (max-width: 767px){
+footer p.copyright{padding-top:0;text-align:center;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+footer p.copyright{padding-top:0;text-align:center;}
+}
+@media screen and (max-width: 1000px){
+footer .footer-top h1.widget-title{margin-bottom:5px;margin-top:20px;}
+}
+@media only screen and (max-width: 1024px){
+footer aside{float:left;width:100%;}
+footer{padding:0 15px;}
+footer .social-links{text-align:center;}
+}
+@media (max-width: 1200px){
+p.copyright{font-size:12px!important;}
+}
+@media (max-width: 992px){
+footer p.copyright{line-height:50px;}
+footer .social-links{float:none!important;line-height:50px!important;}
+.container.footer{text-align:center;}
+a.logo-footer{line-height:50px!important;}
+.footer-div-parent .footer{padding-bottom:20px;padding-top:20px;}
+}
+@media (max-width: 479px){
+p.copyright{line-height:30px!important;}
+}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/styles.css?ver=4.9.10 ; media=all */
+@media all{
+*{word-wrap:break-word;}
+a,a:hover,a:focus{text-decoration:none;outline:none;}
+img{max-width:100%;height:auto;}
+footer .contact-details{border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;}
+.widget_nav_menu ul{padding-left:5px;}
+.textwidget{color:#252525;}
+.widget_nav_menu li,.widget_nav_menu li a{color:#252525;font-weight:400;}
+h1.widget-title,.widget-title{color:#ffffff;}
+::selection{color:#ffffff;background:#ffd600;}
+::-moz-selection{color:#ffffff;background:#ffd600;}
+a{color:#ffd600;}
+a,a:hover,a:focus,footer ul.menu li.menu-item a:hover{color:#ffd600;}
+.widget-title:after,footer .footer-top .menu .menu-item a::before{background:#ffd600;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/styles-headers.css?ver=4.9.10 ; media=all */
+@media all{
+.menu .menu-item{display:inline-block;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/styles-footer.css?ver=4.9.10 ; media=all */
+@media all{
+footer .footer-top h1.widget-title,footer .footer-top .widget-title{font-weight:bold;font-size:24px;margin-bottom:25px;}
+footer .social-links *{color:rgb(255, 255, 255);display:inline-table;list-style:outside none none;transition:all 250ms ease-in-out;-webkit-transition:all 250ms ease-in-out;margin-left:3px;}
+.contact-details i{padding-right:10px;}
+footer .social-links{margin:15px 0;padding:0;}
+footer .social-links i{font-size:13px;margin:0;}
+footer .social-links a:hover{opacity:0.8;}
+footer .contact-details p{color:rgba(255,255,255,0.7);font-size:14px;font-weight:300;margin:0 0 4px;opacity:1;padding:5px 0px;}
+footer{background:#393939;}
+.footer-top .widget_nav_menu li{text-align:left;width:100%;padding:5px 0px;}
+footer .footer-top .menu .menu-item a::before{content:"";height:15px;left:-9px;position:absolute;top:3px;width:2px;}
+.footer-top .widget-title:after{display:none;}
+.footer-top .widget-title{border:0 none;margin-bottom:12px;padding:0;}
+.footer-top .widget_nav_menu ul{margin:0;padding:0;}
+footer .footer-top .menu .menu-item a::after{content:"";}
+footer .footer-top .menu .menu-item a{margin-left:0px;font-size:14px;color:rgba(255,255,255,0.7)!important;opacity:1;}
+footer .footer-top .menu .menu-item a:before{background:none!important;}
+.footer-top h1.widget-title,.footer-top .widget-title{font-weight:400;margin:5px 0;}
+footer .footer{padding:0 15px;}
+.footer-top h1.widget-title,.footer-top .widget-title{margin-top:0;}
+p.copyright{color:rgb(255, 255, 255);font-size:14px;margin:15px 0;}
+footer .textwidget > p:last-child{margin-bottom:0;}
+footer{background:#252525;padding-bottom:50px;}
+footer p{color:#383737;font-size:20px;}
+footer .textwidget p{color:#fff;font-size:14px;}
+footer .widget_nav_menu li::before{font-family:fontawesome;margin-right:8px;}
+footer .widget_nav_menu li,footer .widget_nav_menu li a{color:#fff;opacity:0.9;font-weight:300;}
+footer .menu .menu-item a{color:#b4bbc2;font-size:17px;font-weight:300;letter-spacing:normal;line-height:normal;margin-left:5px;margin-right:5px;padding:0;position:relative;text-transform:none;}
+footer .menu .menu-item a:after{content:'/';display:block;font-size:12px;position:absolute;top:0;right:-10px;color:rgba(255, 255, 255, 0.8);}
+.footer-div-parent{position:relative;background-color:#252525;}
+.footer-div-parent .footer{margin:0 auto;border-radius:10px;}
+p.copyright{line-height:90px;margin:0;}
+footer .social-links{margin:0;padding:0;line-height:90px;float:right;}
+a.logo-footer img{max-width:180px;}
+a.logo-footer{line-height:90px;}
+footer .social-links a{border:2px solid rgba(255, 255, 255, 0.7);border-radius:50%;height:30px;line-height:26px;text-align:center;width:30px;}
+}
+/*! CSS Used from: http://qserviceexp.com/new/wp-content/themes/rentacarwp/css/js_composer.css?ver=4.9.10 ; media=all */
+@media all{
+.container:after,.row:after{clear:both;}
+.container:after,.container:before,.row:after,.row:before{content:" ";display:table;}
+}
+/*! CSS Used from: Embedded */
+::selection{color:#ffffff;background:#0081bb;}
+::-moz-selection{color:#ffffff;background:#0081bb;}
+a{color:#ffd600;}
+a:focus,a:visited,a:hover{color:#252525;}
+a,a:hover,a:focus,footer ul.menu li.menu-item a:hover{color:#0081bb;}
+.widget-title:after,footer .footer-top .menu .menu-item a::before{background:#ffd600;}
+/*! CSS Used from: Embedded */
+footer,footer .footer-top{background:#03548B!important;}
+.footer-div-parent,footer .footer{position:relative;background-color:#042D49!important;}
+footer .footer-top h1.widget-title,footer .footer-top .widget-title{color:white!important;font-size:18px!important;}
+#text-2 > h1{font-size:22px!important;}
+.footer-top .container{width:92%;padding-left:50px;}
+.sidebar-2 aside{display:inline-block;width:45%;}
+footer .footer-top .menu .menu-item a{margin-left:0px;font-size:14px;color:white!important;opacity:1;font-weight:300;text-transform:capitalize;}
+footer .contact-details p{color:white;font-size:14px;font-weight:300;margin:0 0 4px;opacity:1;padding:5px 0px;}
+/*! CSS Used from: Embedded */
+h1{font-family:Ubuntu;font-size:36px;opacity:1;visibility:visible;-webkit-transition:opacity 0.24s ease-in-out;-moz-transition:opacity 0.24s ease-in-out;transition:opacity 0.24s ease-in-out;}
+footer .footer-top{background-color:#252525;}
+footer .footer-top h1.widget-title,footer .footer-top .widget-title{color:#3c78d8;}
+.footer-row-1{padding-top:90px;padding-bottom:90px;}
+.footer-row-1{margin-top:0;margin-bottom:0;}
+.footer-row-1{border-top:0px solid #515b5e;border-bottom:0px solid #515b5e;border-left:0px solid #515b5e;border-right:0px solid #515b5e;}
+footer .footer{background-color:#303030;}
+/*! CSS Used fontfaces */
+@font-face{font-family:FontAwesome;src:url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.eot?v=4.6.3);src:url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.eot#iefix&v=4.6.3) format('embedded-opentype'),url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3) format('woff2'),url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff?v=4.6.3) format('woff'),url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.ttf?v=4.6.3) format('truetype'),url(http://qserviceexp.com/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular) format('svg');font-weight:400;font-style:normal;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej75l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej7wl0miFYxnu4w.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej74l0miFYxnu4w.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej73l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej76l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej70l0miFYxn.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1Czjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKew72nU6AF7xm.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcw72nU6AF7xm.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfA72nU6AF7xm.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcQ72nU6AF7xm.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3js2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKew72nU6AF7xm.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcw72nU6AF7xm.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfA72nU6AF7xm.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcQ72nU6AF7xm.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:300;src:local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZftVyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej75l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej7wl0miFYxnu4w.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej74l0miFYxnu4w.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej73l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej76l0miFYxnu4w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:400;src:local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCu6KVjbNBYlgoKej70l0miFYxn.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:500;src:local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejYHtFyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyCN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyLN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyDN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyMN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyBN4FNgYUJ31U.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:italic;font-weight:700;src:local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCp6KVjbNBYlgoKejZPslyPN4FNgYUJ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1Czjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKew72nU6AF7xm.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcw72nU6AF7xm.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfA72nU6AF7xm.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcQ72nU6AF7xm.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3js2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'), local('Ubuntu-Medium'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvWyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjtGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvGyNPYZvg7UI.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjs2yNPYZvg7UI.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjvmyNPYZvg7UI.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjsGyNPYZvgw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}

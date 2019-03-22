@@ -25,6 +25,22 @@
     cursor: pointer;
 }
 
+#submitButtonContainer{
+    width: 100%;
+    display: block;
+}
+
+#goToReservation{
+    margin: 10px auto;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    font-size: 140%;
+    background: #FFD600;
+    border: 1px solid #000;
+}
+
 
 @media screen and (max-width: 600px) {
     #SearchForm{
