@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import SearchForm from './SearchForm'
 //import './css/background-image.css'
+import './css/responsive-fix.css'
 
 class HomeContent extends Component{
     render(){
@@ -13,8 +14,8 @@ class HomeContent extends Component{
                 <main id="main" className="col-md-12 site-main main-content">
                     <article id="post-869" className="post-869 page type-page status-publish hentry">
                         <div className="entry-content">
-                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid vc_custom_1543111827923 up" style={{position: 'relative', left: '-374.5px', boxSizing: 'border-box', width: '1919px', paddingLeft: '374.5px', paddingRight: '374.5px', minHeight: '150px', overflow: 'hidden', zIndex: 1}}>
-                                <div className="gambit_parallax_inner parallax-inner-1553285746427 up" style={{pointerEvents: 'none', width: '1918px', height: '1135px', position: 'absolute', zIndex: -1, top: '0px', left: '0px', opacity: 1, backgroundSize: '1918px 1208.62px', backgroundPosition: '50% 50%', backgroundRepeat: 'no-repeat', backgroundImage: 'url("http://qserviceexp.com/new/wp-content/uploads/2018/11/Banner_principa.jpg")', transition: 'transform 0s linear -1ms', transform: 'translate3d(0px, -78.2898px, 0px)'}} />
+                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid vc_custom_1543111827923 up" style={{zIndex:9999999}}>
+                                <div className="gambit_parallax_inner parallax-inner-1553285746427 up" style={{pointerEvents: 'none', width: '100%', height: '1135px', position: 'absolute', zIndex: -1, top: '0px', left: '0px', opacity: 1, backgroundSize: '1918px 1208.62px', backgroundRepeat: 'no-repeat', backgroundImage: 'url("http://qserviceexp.com/new/wp-content/uploads/2018/11/Banner_principa.jpg")', transition: 'transform 0s linear -1ms', transform: 'translate3d(0px, -78.2898px, 0px)'}} />
                                 <div className="wpb_column vc_column_container vc_col-sm-12">
                                     <div className="vc_column-inner ">
                                     
@@ -55,7 +56,7 @@ class HomeContent extends Component{
                                 </div>
                             </div>
                             <div className="vc_row-full-width vc_clearfix" />
-                            <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" className="vc_row wpb_row vc_row-fluid section1-home vc_custom_1493982041432 vc_row-has-fill vc_row-no-padding" style={{position: 'relative', left: '-374.5px', boxSizing: 'border-box', width: '1919px'}}>
+                            <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" className="vc_row wpb_row vc_row-fluid section1-home vc_custom_1493982041432 vc_row-has-fill vc_row-no-padding">
                                 <div className="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
                                     <div className="vc_column-inner vc_custom_1492682264649">
                                         <div className="wpb_wrapper">
@@ -112,7 +113,7 @@ class HomeContent extends Component{
                                 </div>
                             </div>
                             <div className="vc_row-full-width vc_clearfix" />
-                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid vc_custom_1492780385525 vc_row-has-fill" style={{position: 'relative', left: '-374.5px', boxSizing: 'border-box', width: '1919px', paddingLeft: '374.5px', paddingRight: '374.5px'}}>
+                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid vc_custom_1492780385525 vc_row-has-fill">
                                 <div className="wpb_column vc_column_container vc_col-sm-12">
                                     <div className="vc_column-inner vc_custom_1492777609582">
                                         <div className="wpb_wrapper">
@@ -124,7 +125,7 @@ class HomeContent extends Component{
                                 </div>
                             </div>
                             <div className="vc_row-full-width vc_clearfix" />
-                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid vc_custom_1492780396308 vc_row-has-fill" style={{position: 'relative', left: '-374.5px', boxSizing: 'border-box', width: '1919px', paddingLeft: '374.5px', paddingRight: '374.5px'}}>
+                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid vc_custom_1492780396308 vc_row-has-fill">
                                 <div className="wpb_column vc_column_container vc_col-sm-12">
                                     <div className="vc_column-inner vc_custom_1492773786521">
                                         <div className="wpb_wrapper">
@@ -134,7 +135,7 @@ class HomeContent extends Component{
                                 </div>
                             </div>
                             <div className="vc_row-full-width vc_clearfix" />
-                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid services-home2 vc_custom_1492780403758 vc_row-has-fill" style={{position: 'relative', left: '-374.5px', boxSizing: 'border-box', width: '1919px', paddingLeft: '374.5px', paddingRight: '374.5px'}}>
+                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid services-home2 vc_custom_1492780403758 vc_row-has-fill">
                                 <div className="wpb_column vc_column_container vc_col-sm-4">
                                     <div className="vc_column-inner ">
                                         <div className="wpb_wrapper">
@@ -224,8 +225,34 @@ class HomeContent extends Component{
                                 </div>
                             </div>
                             <div className="vc_row-full-width vc_clearfix" />
-                            <div data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid vc_custom_1492777967907 up" style={{position: 'relative', left: '-389.5px', boxSizing: 'border-box', width: '1919px', paddingLeft: '389.5px', paddingRight: '389.5px', minHeight: '150px', overflow: 'hidden', zIndex: 1}}>
-                                <div className="gambit_parallax_inner parallax-inner-1553285746432 up" style={{pointerEvents: 'none', width: '1919px', height: '1187px', position: 'absolute', zIndex: -2, top: '0px', left: '0px', opacity: 1, backgroundSize: '2208px 1187px', backgroundPosition: '50% 50%', backgroundRepeat: 'no-repeat', backgroundImage: 'url("http://qserviceexp.com/new/wp-content/uploads/2018/11/Banner_Contacto.jpg")', transition: 'transform 0s linear -1ms', transform: 'translate3d(0px, -153.675px, 0px)'}} />
+                            <div id="class-has-to-fix" data-vc-full-width="true" data-vc-full-width-init="true" className="vc_row wpb_row vc_row-fluid vc_custom_1492777967907 up" style={{
+    position: "relative",
+    left: "-90px",
+    boxSizing: "border-box",
+     width: '110%',
+    paddingLeft: 15,
+    paddingRight: 15,
+    minHeight: 150,
+    overflow: "hidden",
+    zIndex: 1
+  }}>
+                                <div className="gambit_parallax_inner parallax-inner-1553285746432 up"  style={{
+    pointerEvents: "none",
+    width: '110%',
+    height: 1327,
+    position: "absolute",
+    zIndex: -2,
+    top: 0,
+    left: "0px",
+    opacity: 1,
+    backgroundSize: "2468.42px 1327px",
+    backgroundPosition: "50% 50%",
+    backgroundRepeat: "no-repeat",
+    backgroundImage:
+      'url("http://qserviceexp.com/new/wp-content/uploads/2018/11/Banner_Contacto.jpg")',
+    transition: "transform 0s linear -1ms",
+    transform: "translate3d(0px, -49.5427px, 0px)"
+  }} />
                                 <div className="wpb_column vc_column_container vc_col-sm-12">
                                     <div className="vc_column-inner ">
                                         <div className="wpb_wrapper">

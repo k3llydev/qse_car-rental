@@ -1,11 +1,23 @@
 #SearchForm{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin-top: -5%;
     width: 50%;
     padding: 20px;
-    background: #F00;
+    /* background: #F00; */
     border-radius: 15px;
+}
+
+.css-1s9izoc > div {
+    z-index: 9999999 !important;
+}
+
+.css-1s9izoc > div > div {
+    z-index: 9999999 !important;
+}
+
+.css-15k3avv{
+    z-index: 9999999 !important;
 }
 
 #RoundTrip, #OneWayTrip{
@@ -32,7 +44,7 @@
 
 #goToReservation{
     margin: 10px auto;
-    width: 20%;
+    width: 30%;
     padding: 10px;
     border-radius: 10px;
     display: block;
@@ -47,6 +59,6 @@
         margin-top: 20%;
         width: 100%;
         padding: 20px;
-        background: #00F;
+        /* background: #00F; */
     }
   }

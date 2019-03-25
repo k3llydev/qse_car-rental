@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+    /* .vc_custom_1543111827923{
+        width: 500px;
+    } */
+
+    #class-has-to-fix{
+        left: -15px;
+    }
+  }
+
+.container{
+    width: 100% !important;
+}
+
+#class-has-to-fix{
+    left: -90px;
+}
+  

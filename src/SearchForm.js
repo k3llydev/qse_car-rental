@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Select from 'react-select' //FORM
 import './css/SearchForm.css' //FORM
-import { sedanTypes, passengersTruck, groupedOptions } from './data'; //FORM
+import { groupedOptions } from './data'; //FORM
 
 const groupStyles = {
     display: 'flex',
@@ -59,7 +59,7 @@ class SearchForm extends Component{
 		}
         return(
             <div id="SearchForm">
-            <center><h2>Reserve ahora su vehículo</h2></center>
+            {/* <center><h2>Reserve ahora su vehículo</h2></center> */}
                     {/* <div id="TripTypeSelector">
                         <div id="RoundTrip" className="noselect" onClick={this.RoundTripShow.bind(this)}>
                             REDONDO
@@ -75,6 +75,16 @@ class SearchForm extends Component{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -111,10 +121,15 @@ class RoundTrip extends Component{
     //     )
     // }
 
+    
+
     render(){
         return(
-            <form style={this.props.style} action="search/">
+            <form name="SearchForm" style={this.props.style} action={"search/car/"}>
                 <Select
+                    name="id"
+                    id="SearchForm"
+                    style={{zIndex:99999}}
                     placeholder="Seleccione un vehículo..."
                     options={groupedOptions}
                     formatGroupLabel={formatGroupLabel}

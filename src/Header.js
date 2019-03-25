@@ -1,20 +1,21 @@
 import React, {Component} from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 //import './css/Header.css'
-import App from './App';
+import Search from './Search';
 import Home from './Home'
 
 function URLHandler({ match }) {
-  var result;
-  if(match.params.id == "search" ){
-        return(<App />);
-  }else{
-      return(
-          <h1>
-              Not found
-          </h1>
-      );
+  switch(match.params.action){
+    case "vehicles":
+      return(<h1>Vehicles!:D</h1>);
+    break;
+    default:
+      return(<h1>Not found!:(</h1>);
   }
+}
+
+function searchCar(){
+  return(<Search/>);
 }
 
 
@@ -131,8 +132,9 @@ class Header extends Component{
       </div>
     </nav>
   </header>
-  <Route path="/" component={Home} />
-  <Route path="/:id" component={URLHandler} />
+  <Route exact path="/" component={Home} />
+  <Route exact path="/search/car/" component={searchCar} />
+  <Route exact path="/:action/" component={URLHandler} />
   </Router>
       );
     }
