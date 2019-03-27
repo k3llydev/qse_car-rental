@@ -155,7 +155,7 @@ class HomeContent extends Component{
                                         <div className="wpb_wrapper">
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={104} height={104} sizes="(max-width: 104px) 100vw, 104px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img src={images['TarifasBajas']} width={104} height={104} sizes="(max-width: 104px) 100vw, 104px" /></div>
                                                 </figure>
                                             </div>
                                             <h3 style={{fontSize: '25px', color: '#0081bb', lineHeight: '48px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1543093912908 wpb_start_animation animated">TARIFAS BAJAS:</h3>
@@ -213,7 +213,7 @@ class HomeContent extends Component{
                                         <div className="wpb_wrapper">
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={107} height={107} src={images['SinCargos']}className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 107px) 100vw, 107px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={107} height={107} src={images['SinCargosExtras']}className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 107px) 100vw, 107px" /></div>
                                                 </figure>
                                             </div>
                                             <h3 style={{fontSize: '25px', color: '#0081bb', lineHeight: '48px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1543093933027 wpb_start_animation animated">SIN CARGOS EXTRAS:</h3>
