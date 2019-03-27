@@ -3,17 +3,17 @@ import SearchForm from './SearchForm'
 //import './css/background-image.css'
 import './css/responsive-fix.css'
 
-const images = [
-    "AutoTexto" = "https://i.imgur.com/tYZfQtN.png",
-    "Prepago" = "https://i.imgur.com/51eVyU3.png",
-    "SinCargos" = "https://i.imgur.com/BnfyRQu.png",
-    "TarifasBajas" = "https://i.imgur.com/IutTJpj.png",
-    "TodoIncluido" = "https://i.imgur.com/tHmsppu.png",
-    "SinCargosExtras" = "https://i.imgur.com/JVtkSoO.png",
-    "CualquierOcasion" = "https://i.imgur.com/os3rO1S.png",
-    "Facil" = "https://i.imgur.com/6RwosZQ.png",
-    "Seguridad" = "https://i.imgur.com/MpPoBVI.png"
-]
+const images = {
+    "AutoTexto" : "https://i.imgur.com/tYZfQtN.png",
+    "Prepago" : "https://i.imgur.com/51eVyU3.png",
+    "SinCargos" : "https://i.imgur.com/BnfyRQu.png",
+    "TarifasBajas" : "https://i.imgur.com/IutTJpj.png",
+    "TodoIncluido" : "https://i.imgur.com/tHmsppu.png",
+    "SinCargosExtras" : "https://i.imgur.com/JVtkSoO.png",
+    "CualquierOcasion" : "https://i.imgur.com/os3rO1S.png",
+    "Facil" : "https://i.imgur.com/6RwosZQ.png",
+    "Seguridad" : "https://i.imgur.com/MpPoBVI.png"
+}
 
 class HomeContent extends Component{
     render(){
