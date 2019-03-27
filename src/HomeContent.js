@@ -76,7 +76,7 @@ class HomeContent extends Component{
                                         <div className="wpb_wrapper">
                                             <div className="wpb_single_image wpb_content_element vc_align_center">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={150} height={150} src={images["Prepago"]} className="vc_single_image-img attachment-thumbnail" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/Prepago-150x150.png 150w, http://qserviceexp.com/new/wp-content/uploads/2018/11/Prepago-300x300.png 300w, http://qserviceexp.com/new/wp-content/uploads/2018/11/Prepago-100x100.png 100w, http://qserviceexp.com/new/wp-content/uploads/2018/11/Prepago.png 512w" sizes="(max-width: 150px) 100vw, 150px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={150} height={150} src={images['Prepago']} className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 150px) 100vw, 150px" /></div>
                                                 </figure>
                                             </div>
                                             <h2 style={{fontSize: '23px', color: '#ffffff', lineHeight: '45px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_appear appear wpb_start_animation animated">PREPAGO</h2>
