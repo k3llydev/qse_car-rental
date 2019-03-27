@@ -55,8 +55,10 @@ class HomeContent extends Component{
                                     </div>
                                 </div>
                             </div>
+
                             <div className="vc_row-full-width vc_clearfix" />
-                            <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" className="vc_row wpb_row vc_row-fluid section1-home vc_custom_1493982041432 vc_row-has-fill vc_row-no-padding">
+
+                            <div style={{marginTop:"100px"}} className="vc_row wpb_row section1-home">
                                 <div className="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
                                     <div className="vc_column-inner vc_custom_1492682264649">
                                         <div className="wpb_wrapper">
@@ -80,7 +82,7 @@ class HomeContent extends Component{
                                         <div className="wpb_wrapper">
                                             <div className="wpb_single_image wpb_content_element vc_align_center">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={100} height={99} src="http://qserviceexp.com/new/wp-content/uploads/2018/11/Seguridad.png" className="vc_single_image-img attachment-thumbnail" alt /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={150} height={150} src="http://qserviceexp.com/new/wp-content/uploads/2018/11/Seguridad.png" className="vc_single_image-img attachment-thumbnail" alt /></div>
                                                 </figure>
                                             </div>
                                             <h2 style={{fontSize: '23px', color: '#ffffff', lineHeight: '45px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_appear appear wpb_start_animation animated">SEGURIDAD</h2>
@@ -263,13 +265,7 @@ class HomeContent extends Component{
                                             <h1 style={{fontSize: '65px', color: '#d68720', lineHeight: '70px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading tel wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top wpb_start_animation animated">(55) 8661 1130</h1>
                                             <h3 style={{fontSize: '25px', color: '#ffffff', lineHeight: '35px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 300, fontStyle: 'normal'}} className="vc_custom_heading correo_contacto wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top wpb_start_animation animated">cdmx@qserviceexp.com<br />
                     </h3>
-                                            <div className="vc_empty_space" style={{height: '4px'}}><span className="vc_empty_space_inner" /></div>
-                                            <h1 style={{fontSize: '65px', color: '#ffffff', lineHeight: '70px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading ciudad wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top wpb_start_animation animated">CANCÚN<br />
-                    </h1>
-                                            <h1 style={{fontSize: '65px', color: '#d68720', lineHeight: '70px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading tel wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top wpb_start_animation animated">(998) 253 9634<br />
-                    </h1>
-                                            <h1 style={{fontSize: '25px', color: '#ffffff', lineHeight: '35px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 300, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top wpb_start_animation animated">cancun@qserviceexp.com<br />
-                    </h1>
+                                            
                                             <div className="vc_empty_space" style={{height: '65px'}}><span className="vc_empty_space_inner" /></div>
                                             <style type="text/css" scoped dangerouslySetInnerHTML={{__html: "\n                .modeltheme_button .btn_custom_5c954271b249a {\n                  background: #ffd600 !important; /* Old browsers */\n                  background: -moz-linear-gradient(top, #ffd600 0%, #ffd600 0%, #ffd600 0%, #ffd600 0%, #ffd600 100%, #ffd600 100%, #ffd600 100%) !important; /* FF3.6-15 */\n                  background: -webkit-linear-gradient(top, #ffd600 0%,#ffd600 0%,#ffd600 0%,#ffd600 0%,#ffd600 100%,#ffd600 100%,#ffd600 100%) !important; /* Chrome10-25,Safari5.1-6 */\n                  background: linear-gradient(to bottom, #ffd600 0%,#ffd600 0%,#ffd600 0%,#ffd600 0%,#ffd600 100%,#ffd600 100%,#ffd600 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffd600, endColorstr=#ffd600,GradientType=0 ) !important; /* IE6-9 */\n                  transform: scale(1.0);\n                  transition: all 400ms ease-in-out 0s;\n                  -ms-transformtransition: all 400ms ease-in-out 0s;\n                  -webkit-transformtransition: all 400ms ease-in-out 0s;\n                }\n                .modeltheme_button .button-winona:hover {\n                  transform: scale(1.03);\n                  transition: all 400ms ease-in-out 0s;\n                  -ms-transformtransition: all 400ms ease-in-out 0s;\n                  -webkit-transformtransition: all 400ms ease-in-out 0s;\n                }\n              " }} />
                                             <div className="text-center modeltheme_button wow fadeInUp animated" style={{visibility: 'visible', animationName: 'fadeInUp'}}><a href className="button-winona btn btn-lg btn_custom_5c954271b249a" style={{color: '#000000'}}>CONTÁCTANOS</a></div>

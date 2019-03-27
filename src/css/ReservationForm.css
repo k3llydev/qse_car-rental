@@ -1,0 +1,14 @@
+.wpcf7-submit{
+    background: #ffd600 !important;
+    color: #000 !important;
+    padding: 10px !important;
+    border: 1px solid #000 !important;
+}
+
+input:disabled{
+    color: #e0c436;
+}
+
+input:disabled:hover{
+    cursor: no-drop;
+}

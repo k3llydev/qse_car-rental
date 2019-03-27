@@ -21,7 +21,7 @@ class HomeFooter extends Component{
                         </div>
                         <div className="col-md-3 sidebar-2">
                             <aside id="nav_menu-5" className="widget vc_column_vc_container widget_nav_menu">
-                                <h1 className="widget-title">SERVICIO</h1>
+                                <h1 className="widget-title">MENU RÁPIDO</h1>
                                 <div className="menu-primary-container">
                                     <ul id="menu-primary-1" className="menu">
                                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-869 current_page_item menu-item-7874"><a href="http://qserviceexp.com/new/es/home/main-home/">INICIO</a></li>
@@ -44,21 +44,9 @@ class HomeFooter extends Component{
                                 <div className="sidebar-social-networks address-social-links">
                                     <h1 className="widget-title">CONTACTO CDMX </h1>
                                     <div className="contact-details">
-                                        <p><i className="fa fa-phone" aria-hidden="true" />(55) 8661 1130</p>
-                                        <p><i className="fa fa-envelope" aria-hidden="true" />cdmx@qserviceexp.com</p>
-                                        <p><i className="fa fa-map-marker" aria-hidden="true" />Juan Sánchez Azcona #1546, Col. Del Valle, CDMX</p>
-                                    </div>
-                                </div>
-                            </aside>
-                        </div>
-                        <div className="col-md-3 sidebar-4">
-                            <aside id="text-6" className="widget vc_column_vc_container widget_text">
-                                <h1 className="widget-title">CONTACTO CANCÚN</h1>
-                                <div className="textwidget">
-                                    <div className="contact-details">
-                                        <p><i className="fa fa-phone" aria-hidden="true" />(998) 253 9634</p>
-                                        <p><i className="fa fa-envelope" aria-hidden="true" />cancun@qserviceexp.com</p>
-                                        <p><i className="fa fa-map-marker" aria-hidden="true" />Calle Chiabal, Mza 7, Lte. 3, SM 25, Cancún Cancún, Mexico</p>
+                                        <p><i className="fas fa-phone" aria-hidden="true" />(55) 8661 1130</p>
+                                        <p><i className="fas fa-envelope" aria-hidden="true" />cdmx@qserviceexp.com</p>
+                                        <p><i className="fas fa-map-marker" aria-hidden="true" />Juan Sánchez Azcona #1546, Col. Del Valle, CDMX</p>
                                     </div>
                                 </div>
                             </aside>
@@ -102,13 +90,13 @@ class HomeFooter extends Component{
             <div className="col-md-3">
                 <ul className="social-links">
                     <li>
-                        <a href="https://www.facebook.com/qserviceexp"><i className="fa fa-facebook" /></a>
+                        <a href="https://www.facebook.com/qserviceexp"><i className="fab fa-facebook" /></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/qserviceexp"><i className="fa fa-twitter" /></a>
+                        <a href="https://twitter.com/qserviceexp"><i className="fab fa-twitter" /></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/qserviceexp/"><i className="fa fa-instagram" /></a>
+                        <a href="https://www.instagram.com/qserviceexp/"><i className="fab fa-instagram" /></a>
                     </li>
                 </ul>
             </div>

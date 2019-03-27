@@ -1,11 +1,85 @@
 export const sedanTypes = [
-  { value: 1, label: "VW VENTO MANUAL" },
-  { value: 2, label: "VW VENTO AUTOMATICO" },
-  { value: 3, label: "VW JETTA AUTOMATICO" }
+  { value: 1, label: "VW VENTO MANUAL", image: "https://imgur.com/22bUtjR.png", 
+      cost: 
+      {
+        perDay:681,
+        perWeek:4528,
+        perMonth:18387
+      },
+      features: [
+        "Color blanco",
+        "Transmisión automática",
+        "4 Cilindros",
+        "Tanque de 50 litros",
+        "Radio AM/FM",
+        "Reproductor MP3",
+        "Puerto auxiliar",
+        "Puerto USB",
+        "Sistema de A/C"
+      ]
+  },
+
+  { value: 2, label: "VW VENTO AUTOMATICO", image: "https://i.imgur.com/flcArQr.png", 
+      cost: 
+      {
+        perDay:681,
+        perWeek:4528,
+        perMonth:18387
+      },
+      features: [
+        "Color blanco",
+        "Transmisión estandar",
+        "4 Cilindros",
+        "Tanque de 50 litros",
+        "Radio AM/FM",
+        "Reproductor MP3",
+        "Puerto auxiliar",
+        "Puerto USB",
+        "Sistema de A/C"
+      ]
+  },
+
+  { value: 3, label: "VW JETTA AUTOMATICO", image: "https://i.imgur.com/pKqOHUS.png", 
+      cost:
+      {
+        perDay:710,
+        perWeek:4721,
+        perMonth:19170
+      },
+      features: [
+        "Color blanco",
+        "Transmisión estandar",
+        "4 Cilindros",
+        "Tanque de 50 litros",
+        "Radio AM/FM",
+        "Reproductor MP3",
+        "Puerto auxiliar",
+        "Puerto USB",
+        "Sistema de A/C"
+      ]
+  }
 ];
 
 export const passengersTruck = [
-  { value: 4, label: "TOYOTA HICE AUTOMATICO" }
+  { value: 4, label: "TOYOTA HICE AUTOMATICO", image: "https://i.imgur.com/N0Fn0bf.png", 
+    cost: 
+      {
+        perDay:1600,
+        perWeek:10640,
+        perMonth:43200
+      },
+    features: [
+      "Color blanco",
+      "Transmisión estandar",
+      "4 Cilindros",
+      "Tanque de 70 litros",
+      "Radio AM/FM",
+      "Reproductor MP3",
+      "Puerto auxiliar",
+      "Puerto USB",
+      "Sistema de A/C"
+    ]
+  }
 ];
 
 export const groupedOptions = [

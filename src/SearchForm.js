@@ -128,8 +128,7 @@ class RoundTrip extends Component{
             <form name="SearchForm" style={this.props.style} action={"search/car/"}>
                 <Select
                     name="id"
-                    id="SearchForm"
-                    style={{zIndex:99999}}
+                    id="SearchFormBox"
                     placeholder="Seleccione un vehículo..."
                     options={groupedOptions}
                     formatGroupLabel={formatGroupLabel}

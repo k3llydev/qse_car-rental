@@ -3,14 +3,28 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 //import './css/Header.css'
 import Search from './Search';
 import Home from './Home'
+import AboutUs from './AboutUs'
+import Contact from './Contact'
+import Services from './Services'
+import Vehicles from './Vehicles'
 
 function URLHandler({ match }) {
   switch(match.params.action){
     case "vehicles":
-      return(<h1>Vehicles!:D</h1>);
-    break;
+      return(<Vehicles />);
+
+    case "services":
+      return(<Services />)
+
+    case "about-us":
+      return(<AboutUs />)
+
+    case "contact":
+      return(<Contact />)
+
+
     default:
-      return(<h1>Not found!:(</h1>);
+      return(<h1>404 - Not found</h1>);
   }
 }
 

@@ -1,3 +1,138 @@
 div.wpcf7{
     float: none !important;   
 }
+
+
+#carNameTitle{
+   /* -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white; */
+   color: #ffd600;
+   font-weight: bolder;
+}
+
+#post-7455{
+    margin-top: -180px !important;
+}
+
+
+#carBackground{
+    margin-top: -50px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: -10;
+}
+
+#carImage{
+    animation: float 2.5s ease-in-out infinite;
+    max-width: 40%;
+}
+
+
+@media screen and (max-width: 600px) {
+    #carImage{
+        margin-top: 20px;
+    }
+
+    #carBackground{
+        height: 160px;
+        margin-top: -73px;
+    }
+  }
+
+
+
+.mt_car--single-price-inner:hover{
+    cursor: pointer;
+}
+
+.selectedRentalType{
+    background: #ffd600 !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+}
+
+.selectedRentalType > span{
+    color: inherit !important;
+}
+
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-20px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
+
+
+
+#perDay, #perWeek, #perMonth{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    width: 100%;
+}
+
+#perDayIcon, #perWeekIcon, #perMonthIcon{
+    position: absolute;
+    font-size: 200%;
+    margin-top: 4%;
+    color: #FFF;
+    margin-left: -13%;
+    display: none;
+}
+
+.selectedRentalTypeIcon{
+    display: inline-block !important;
+}
+
+
+.article-content {
+    padding-left: 50px !important;
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+    #perDayIcon, #perWeekIcon, #perMonthIcon{
+        display: none;
+        filter: opacity(0);
+    }
+
+    #carBackground{
+        height: 250px;
+        margin-top: -73px;
+    }
+  }
+
+
+  @media screen and (min-width: 1200px) {
+
+    #carBackground{
+        height: 400px;
+        margin-top: -73px;
+    }
+  }
+
+
+
+
+
+
+
+
+  #reservationTitle{
+      color: #FFF !important;
+  }
