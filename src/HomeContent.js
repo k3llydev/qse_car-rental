@@ -36,7 +36,7 @@ class HomeContent extends Component{
                                             <div className="vc_empty_space" style={{height: '35px'}}><span className="vc_empty_space_inner" /></div>
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_appear appear wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={903} height={631} src={images['AutoTexto']} className="vc_single_image-img attachment-full" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/AutoTexto.png 903w, http://qserviceexp.com/new/wp-content/uploads/2018/11/AutoTexto-300x210.png 300w, http://qserviceexp.com/new/wp-content/uploads/2018/11/AutoTexto-768x537.png 768w, http://qserviceexp.com/new/wp-content/uploads/2018/11/AutoTexto-600x419.png 600w" sizes="(max-width: 903px) 100vw, 903px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={903} height={631} src={images['AutoTexto']} className="vc_single_image-img attachment-full" sizes="(max-width: 903px) 100vw, 903px" /></div>
                                                 </figure>
                                             </div>
                                             <div className="vc_empty_space" style={{height: '45px'}}><span className="vc_empty_space_inner" /></div>
@@ -112,7 +112,7 @@ class HomeContent extends Component{
                                         <div className="wpb_wrapper">
                                             <div className="wpb_single_image wpb_content_element vc_align_center">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={150} height={150} src={images['SinCargos']} className="vc_single_image-img attachment-thumbnail" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/SinCargos-150x150.png 150w, http://qserviceexp.com/new/wp-content/uploads/2018/11/SinCargos-300x300.png 300w, http://qserviceexp.com/new/wp-content/uploads/2018/11/SinCargos-100x100.png 100w, http://qserviceexp.com/new/wp-content/uploads/2018/11/SinCargos.png 512w" sizes="(max-width: 150px) 100vw, 150px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={150} height={150} src={images['SinCargos']} className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 150px) 100vw, 150px" /></div>
                                                 </figure>
                                             </div>
                                             <h2 style={{fontSize: '23px', color: '#ffffff', lineHeight: '45px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_appear appear wpb_start_animation animated">SIN CARGOS OCULTOS</h2>
@@ -155,7 +155,7 @@ class HomeContent extends Component{
                                         <div className="wpb_wrapper">
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={104} height={104} src={images['TarifasBajas']} className="vc_single_image-img attachment-thumbnail" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/01.png 104w, http://qserviceexp.com/new/wp-content/uploads/2018/11/01-100x100.png 100w" sizes="(max-width: 104px) 100vw, 104px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={104} height={104} sizes="(max-width: 104px) 100vw, 104px" /></div>
                                                 </figure>
                                             </div>
                                             <h3 style={{fontSize: '25px', color: '#0081bb', lineHeight: '48px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1543093912908 wpb_start_animation animated">TARIFAS BAJAS:</h3>
@@ -167,7 +167,7 @@ class HomeContent extends Component{
                                             <div className="vc_empty_space" style={{height: '60px'}}><span className="vc_empty_space_inner" /></div>
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={104} height={104} src={images['CualquierOcasion']} className="vc_single_image-img attachment-thumbnail" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/04.png 104w, http://qserviceexp.com/new/wp-content/uploads/2018/11/04-100x100.png 100w" sizes="(max-width: 104px) 100vw, 104px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={104} height={104} src={images['CualquierOcasion']} className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 104px) 100vw, 104px" /></div>
                                                 </figure>
                                             </div>
                                             <h3 style={{fontSize: '25px', color: '#0081bb', lineHeight: '48px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1543093961252 wpb_start_animation animated">CUALQUIER OCASIÓN:</h3>
@@ -184,7 +184,7 @@ class HomeContent extends Component{
                                         <div className="wpb_wrapper">
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={102} height={102} src={images['TodoIncluido']} className="vc_single_image-img attachment-thumbnail" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/02.png 102w, http://qserviceexp.com/new/wp-content/uploads/2018/11/02-100x100.png 100w" sizes="(max-width: 102px) 100vw, 102px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={102} height={102} src={images['TodoIncluido']} className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 102px) 100vw, 102px" /></div>
                                                 </figure>
                                             </div>
                                             <h3 style={{fontSize: '25px', color: '#0081bb', lineHeight: '48px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1543093923129 wpb_start_animation animated">TODO INCLUIDO:</h3>
@@ -196,7 +196,7 @@ class HomeContent extends Component{
                                             <div className="vc_empty_space" style={{height: '60px'}}><span className="vc_empty_space_inner" /></div>
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={103} height={103} src={images['Facil']} className="vc_single_image-img attachment-thumbnail" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/05.png 103w, http://qserviceexp.com/new/wp-content/uploads/2018/11/05-100x100.png 100w" sizes="(max-width: 103px) 100vw, 103px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={103} height={103} src={images['Facil']} className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 103px) 100vw, 103px" /></div>
                                                 </figure>
                                             </div>
                                             <h3 style={{fontSize: '25px', color: '#0081bb', lineHeight: '48px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1543093970134 wpb_start_animation animated">FÁCIL:</h3>
@@ -213,7 +213,7 @@ class HomeContent extends Component{
                                         <div className="wpb_wrapper">
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={107} height={107} src={images['SinCargos']}className="vc_single_image-img attachment-thumbnail" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/03.png 107w, http://qserviceexp.com/new/wp-content/uploads/2018/11/03-100x100.png 100w" sizes="(max-width: 107px) 100vw, 107px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={107} height={107} src={images['SinCargos']}className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 107px) 100vw, 107px" /></div>
                                                 </figure>
                                             </div>
                                             <h3 style={{fontSize: '25px', color: '#0081bb', lineHeight: '48px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1543093933027 wpb_start_animation animated">SIN CARGOS EXTRAS:</h3>
@@ -225,7 +225,7 @@ class HomeContent extends Component{
                                             <div className="vc_empty_space" style={{height: '60px'}}><span className="vc_empty_space_inner" /></div>
                                             <div className="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_start_animation animated">
                                                 <figure className="wpb_wrapper vc_figure">
-                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={102} height={102} src={images['Seguridad']} className="vc_single_image-img attachment-thumbnail" alt srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/06.png 102w, http://qserviceexp.com/new/wp-content/uploads/2018/11/06-100x100.png 100w" sizes="(max-width: 102px) 100vw, 102px" /></div>
+                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img width={102} height={102} src={images['Seguridad']} className="vc_single_image-img attachment-thumbnail" sizes="(max-width: 102px) 100vw, 102px" /></div>
                                                 </figure>
                                             </div>
                                             <h3 style={{fontSize: '25px', color: '#0081bb', lineHeight: '48px', textAlign: 'center', fontFamily: 'Ubuntu', fontWeight: 700, fontStyle: 'normal'}} className="vc_custom_heading wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1543093981282 wpb_start_animation animated">SEGURIDAD:</h3>
