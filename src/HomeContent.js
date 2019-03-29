@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
-import SearchForm from './SearchForm'
+import CustomSearchForm from './CustomSearchForm'
 //import './css/background-image.css'
 import './css/responsive-fix.css'
+
+
 
 const images = {
     "AutoTexto" : "https://i.imgur.com/tYZfQtN.png",
@@ -16,9 +18,21 @@ const images = {
 }
 
 class HomeContent extends Component{
+
+    constructor(){
+        super()
+        this.myRef=null
+    }
+
+    scrollToMyRef = () => window.scrollTo(0, this.myRef.offsetTop)
+
+    componentDidMount(){
+        window.addEventListener("load", this.scrollToMyRef() )
+    }
+
     render(){
         return(
-            <div id="primary" className="no-padding content-area no-sidebar">
+            <div ref={ (ref) => this.myRef=ref } id="primary" className="no-padding content-area no-sidebar">
     {/*
     <div class=""> */}
         <div className="container">
@@ -51,7 +65,7 @@ class HomeContent extends Component{
                                                             <div className="wpb_text_column wpb_content_element ">
                                                                 <div className="wpb_wrapper">
                                                                     <div className="mt-car-search">
-                                                                        <SearchForm />
+                                                                        <CustomSearchForm />
                                                                     </div>
                                                                 </div>
                                                             </div>

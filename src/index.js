@@ -14,32 +14,6 @@ import './css/includes/responsive.css'
 import './css/includes/sidebar-effects.css'
 import './css/another-home-styles.css'
 
-// function ParamsExample() {
-//     return (
-//       <Router>
-//         <div>
-//           <Route path="/" component={Home} />
-//           <Route path="/:id" component={URLHandler} />
-  
-//         </div>
-//       </Router>
-//     );
-//   }
-  
-
-  
-  //export default ParamsExample;
-
-
-
-
-
-ReactDOM.render(
-        <Header />
-, document.getElementById('page'));
-
-
-
-// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Header />, document.getElementById('page'));
 
 serviceWorker.unregister();
