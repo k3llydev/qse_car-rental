@@ -20,32 +20,10 @@ class CustomSearchForm extends Component{
             rentPlace: 0,
             backPlaceLabel: "Seleccione un lugar...",
             backPlaceValue: "",
-            rentTime: {
-                days: 0,
-                hours: 0,
-                minutes: 0
-            },
+            rentTime: 0,
             featureOptions: "",
             formIsValid: false
         }
-    }
-
-    timeFormat = (d) => {
-        var seconds = Number(d) // 1000;
-        var dys = Math.floor(seconds / (3600*24));
-        seconds  -= dys*3600*24;
-        var hrs   = Math.floor(seconds / 3600);
-        seconds  -= hrs*3600;
-        var mnts = Math.floor(seconds / 60);
-        seconds  -= mnts*60;
-        this.setState({
-            rentTime: {
-                days: dys,
-                hours: hrs,
-                minutes: mnts
-            }
-        })
-        return (dys+" dias, "+hrs+" horas y "+mnts+" minutos." );
     }
 
     addTimes = (startTime, endTime) => {
@@ -73,8 +51,10 @@ class CustomSearchForm extends Component{
         var msd = new Date(this.state.rentDay).getTime() / 1000 | 0
         var msb = new Date(this.state.backDay).getTime() / 1000 | 0
         var hoursSum = this.addTimes(this.state.rentHour, this.state.backHour)
-        var rentTime = (msb-msd)+hoursSum
-        alert("El vehiculo se rentará: "+this.timeFormat(rentTime))
+        var rT = (msb-msd)+hoursSum
+        this.setState({
+            rentTime: rT
+        })
         this.validateFormData()
     }
 
@@ -172,6 +152,13 @@ class CustomSearchForm extends Component{
         var rentPlace = this.state.rentPlace
         var backPlace = this.state.backPlaceValue
 
+        //UNSET FIRST
+        cookies.remove("startDate",startDate)
+        cookies.remove("endDate",endDate)
+        cookies.remove("rentTime", rentTime)
+        cookies.remove("rentPlace", rentPlace)
+        cookies.remove("backPlace", backPlace)
+
         cookies.set("startDate",startDate)
         cookies.set("endDate",endDate)
         cookies.set("rentTime", rentTime)
@@ -184,7 +171,8 @@ class CustomSearchForm extends Component{
         var renderedLocationOptions = -1
         if(this.state.formIsValid){
             this.setReservationCookies()
-            return <Redirect to={ (this.state.featureOptions == "" ) ? "/vehicles/" : "/vehicles/?category="+this.state.featureOptions } />
+            // return <Redirect to={ (this.state.featureOptions == "" ) ? "/vehicles/" : "/vehicles/?category="+this.state.featureOptions } />
+            window.location.href = (this.state.featureOptions == "" ) ? "/vehicles/" : "/vehicles/?category="+this.state.featureOptions
         }
         return(
             <form

@@ -1,7 +1,17 @@
 import React, {Component} from 'react'
 import ReservationForm from './ReservationForm'
+import ReservationPrice from './ReservationPrice'
+import {VehicleCategories, OfficeLocations} from './CustomFormData'
 import './css/ReservationFixStyles.css'
 import './css/ReservationForm.css'
+import './css/Reservation.css'
+import * as qs from 'query-string';
+import Cookies from 'universal-cookie';
+
+const cookies = new Cookies();
+
+const parsedQuery = qs.parse(window.location.search, { ignoreQueryPrefix: true } );
+const VehicleId = ( parsedQuery.vid === null ? false : parsedQuery.vid )
 
 
 
@@ -30,67 +40,78 @@ class Reservation extends Component{
 
 constructor(props){
   super(props)
+  this.state = {
+    vehicleData: []
+  }
 }
 
-formatMoney = (n, c, d, t) => {
-  var c = isNaN(c = Math.abs(c)) ? 2 : c,
-    d = d == undefined ? "." : d,
-    t = t == undefined ? "," : t,
-    s = n < 0 ? "-" : "",
-    i = String(parseInt(n = Math.abs(Number(n) || 0).toFixed(c))),
-    j = (j = i.length) > 3 ? j % 3 : 0;
-
-  return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
-}
-
-
-selectRentalType = (type) => {
-  var RentalTypes = ["perDay","perWeek","perMonth"]
-  RentalTypes.forEach(function(element){
-    document.getElementById(element).classList.remove("selectedRentalType")
-    document.getElementById(element+'Icon').classList.remove("selectedRentalTypeIcon")
+VehicleExists = (id) => {
+  var exists = false
+  VehicleCategories.map(e=>{
+      e.results.map(vehicle=>{
+        exists = ( vehicle.value == id ? true : exists )
+        this.state.vehicleData = ( vehicle.value == id ? vehicle : this.state.vehicleData )
+      })
   })
-  document.getElementById(RentalTypes[type-1]).classList.add("selectedRentalType")
-  document.getElementById(RentalTypes[type-1]+'Icon').classList.add("selectedRentalTypeIcon")
+  return exists
 }
 
-componentDidMount(){
-  this.selectRentalType(1);
+timeFormat = (d) => {
+  var seconds = Number(d) // 1000;
+  var dys = Math.floor(seconds / (3600*24));
+  seconds  -= dys*3600*24;
+  var hrs   = Math.floor(seconds / 3600);
+  seconds  -= hrs*3600;
+  var mnts = Math.floor(seconds / 60);
+  seconds  -= mnts*60;
+  return (dys+" dias, "+hrs+" horas y "+mnts+" minutos." );
 }
+
+
+
+
+// selectRentalType = (type) => {
+//   var RentalTypes = ["perDay","perWeek","perMonth"]
+//   RentalTypes.forEach(function(element){
+//     document.getElementById(element).classList.remove("selectedRentalType")
+//     document.getElementById(element+'Icon').classList.remove("selectedRentalTypeIcon")
+//   })
+//   document.getElementById(RentalTypes[type-1]).classList.add("selectedRentalType")
+//   document.getElementById(RentalTypes[type-1]+'Icon').classList.add("selectedRentalTypeIcon")
+// }
+
+// componentDidMount(){
+//   this.selectRentalType(1);
+// }
 
     render(){
+      if(this.VehicleExists(VehicleId)){
+        var data = this.state.vehicleData
+      }else{
+        return <h1>No cars found</h1>
+      }
         return(
             <article
   id="post-7455"
   className="post high-padding post-7455 mt_car type-mt_car status-publish has-post-thumbnail hentry mt-car-category-mercedes mt-car-category-ml mt-car-type-suv mt-car-features-air-conditioning mt-car-features-all-wheel-drive mt-car-features-audio-input mt-car-features-bluetooth mt-car-features-cancellation mt-car-features-cruise-control mt-car-features-dvd-video-system mt-car-features-fm-radio mt-car-features-gps-navigation mt-car-features-heated-seats mt-car-features-keyless-entry mt-car-features-leather-seats mt-car-features-roadside-assistance mt-car-features-sunroof mt-car-features-theft-protection mt-car-features-third-row-seat mt-car-features-tow-hitch mt-car-features-usb-input"
 >
 <center><img id="carBackground" src="https://i.imgur.com/xGPz3fU.jpg" /></center>
-<center><img id="carImage" src={this.props.carImage} /></center>
+<center><img id="carImage" src={data.image} /></center>
   <div className="container">
     <div className="row">
       <div className="col-md-8 main-content">
         <div className="row mt_car--pricings">
-          <div className="mt_car--price-day mt_car--single-price col-md-4">
-            <div id="perDay" className="mt_car--single-price-inner" onClick={this.selectRentalType.bind(this, 1)}>
-              <i id="perDayIcon" class="fas fa-check-circle" /> 
-              <span className="priceval">${this.formatMoney(this.props.carCosts.perDay)}</span>
-              <br /> Por día
-            </div>
+
+        <div className="ReservationTicket">
+          <div className="TicketTitle"><h3>DETALLES DE TU RESERVACIÓN</h3></div>
+          <div className="TicketContent">
+            <div className="TicketRentTime">RENTA: {this.timeFormat(cookies.get("rentTime"))}</div>
+            <div className="TicketTotal"><span className="TicketBold">TOTAL:</span> $<ReservationPrice rentTime={cookies.get("rentTime")} vehicle={data.value} /></div>
           </div>
-          <div className="mt_car--price-hour mt_car--single-price col-md-4">
-            <div id="perWeek" className="mt_car--single-price-inner" onClick={this.selectRentalType.bind(this, 2)}>
-              <i id="perWeekIcon" class="fas fa-check-circle" /> 
-              <span className="priceval">${this.formatMoney(this.props.carCosts.perWeek)}</span>
-              <br /> Por semana
-            </div>
-          </div>
-          <div className="mt_car--price-transfer mt_car--single-price col-md-4">
-            <div id="perMonth" className="mt_car--single-price-inner" onClick={this.selectRentalType.bind(this, 3)}>
-              <i id="perMonthIcon" class="fas fa-check-circle" /> 
-              <span className="priceval">${this.formatMoney(this.props.carCosts.perMonth)}</span>
-              <br /> Por mes <br />
-            </div>
-          </div>
+        </div>
+
+
+
         </div>
         {/* HEADER */}
         <div className="article-header">
@@ -180,7 +201,7 @@ componentDidMount(){
             {/* POST FEATURES */}
             <h4 className="content-car-heading">Características</h4>
             <div className="single-post-tags row">
-              <CarFeatures data={this.props.carFeatures}/>
+              <CarFeatures data={data.features}/>
             </div>
           </div>
           <div className="clearfix" />

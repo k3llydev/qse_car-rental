@@ -7,6 +7,7 @@ import AboutUs from './AboutUs'
 import Contact from './Contact'
 import Services from './Services'
 import Vehicles from './Vehicles'
+import Reservation from './Reservation'
 
 function URLHandler({ match }) {
   switch(match.params.action){
@@ -21,6 +22,9 @@ function URLHandler({ match }) {
 
     case "contact":
       return(<Contact />)
+
+    case "reservation":
+      return(<Reservation />)
 
 
     default:

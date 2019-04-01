@@ -1,4 +1,8 @@
 import React, { Component } from 'react'
+import Cookies from 'universal-cookie';
+import {OfficeLocations} from './CustomFormData'
+
+const cookies = new Cookies();
 
 class ReservationForm extends Component{
 
@@ -36,7 +40,7 @@ class ReservationForm extends Component{
     }
 
     render(){
-        const vehiclesAddress = "DIRECCIÓN FIJA AQUÍ"
+        const vehiclesAddress = OfficeLocations.map(o=>{ return (o.value == cookies.get("rentPlace") ? o.address : null)} )
         return(
             <form className="wpcf7-form" onSubmit={this.formHandle}>
                 {/* <SweetAlert

@@ -4,7 +4,9 @@ export const OfficeLocations = [
     {address: "Direccion Cancun", value: 2}
 ]
 
-
+export const Disccounts = {
+  perWeek: 5.01
+}
 
 export const sedanTypes = [
     { value: 1, label: "VW VENTO MANUAL", image: "https://imgur.com/22bUtjR.png", transmission: "Auto", passengers: 4, capacity: 4,

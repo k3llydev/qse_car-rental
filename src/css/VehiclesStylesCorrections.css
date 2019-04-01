@@ -6,3 +6,7 @@
     margin-bottom: 150px;
     display: block;
 }
+
+.mt_car--price{
+    cursor: pointer !important;
+}

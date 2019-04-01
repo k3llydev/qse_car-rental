@@ -1,10 +1,8 @@
 import React, {Component} from 'react'
-import * as qs from 'query-string';
 import {VehicleCategories} from './CustomFormData'
-import {Redirect} from 'react-router'
+import {Redirect, withRouter} from 'react-router'
 
-const parsedQuery = qs.parse(window.location.search, { ignoreQueryPrefix: true } );
-const category = ( parsedQuery.category === null ? false : parsedQuery.category )
+
 
 class VehicleImportantFeatures extends Component{
     render(){
@@ -30,8 +28,8 @@ class VehicleImportantFeatures extends Component{
 
 class VehicleArticle extends Component{
 
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             redirect: false,
             vehicle: 0
@@ -47,7 +45,8 @@ class VehicleArticle extends Component{
     render(){
         var data = this.props.vehicle
         if(this.state.redirect){
-            return <Redirect to={"/reservation/?vid="+this.state.vehicle} />
+            // return <Redirect to={"/reservation/?vid="+this.state.vehicle} />
+            window.location.href = "/reservation/?vid="+this.state.vehicle
         }
         return(
             <article
@@ -136,24 +135,17 @@ class VehicleArticle extends Component{
 
 
 class VehicleResults extends Component{
- 
     render(){
+      var category = this.props.category
         var JSX = []
-        var displayState = this.props.displayState
-        if(displayState >= 1 ){
-            VehicleCategories.map(ctg=>{
-                if(ctg.typeId == category){
-                    ctg.results.map(vehicle=>{
-                        JSX.push(<VehicleArticle category={ctg.title} vehicle={vehicle} />)
-                    })
-                }
-            })
-        }else if( displayState === 0 ){
-            JSX.push(<h1>Show all</h1>)
-        }else{
-            JSX.push(<h1>No results</h1>)
-        }
+          VehicleCategories.map(ctg=>{
+            if(ctg.typeId == category){
+                ctg.results.map(vehicle=>{
+                    JSX.push(<VehicleArticle category={ctg.title} vehicle={vehicle} />)
+                })
+            }
+        })
         return JSX
     }
 }
-export default VehicleResults
+export default withRouter(VehicleResults)

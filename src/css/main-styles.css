@@ -38,6 +38,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 /* 1. Reset CSS */
+
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo.otf');
+}
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
