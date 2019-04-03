@@ -220,7 +220,7 @@ timeFormat = (d) => {
         {/* Booking Form */}
         <div className="mt_car--booking-form">
           <div role="form" className="wpcf7" id="wpcf7-f7711-p7455-o1" lang="en-US" dir="ltr">
-            <ReservationForm />
+            <ReservationForm vehicle={VehicleId} />
           </div>
           
         </div>

@@ -39,6 +39,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* 1. Reset CSS */
 
+.page article.type-page {
+    padding-bottom: 0 !important;
+}
 
 @font-face {
     font-family: 'Museo';

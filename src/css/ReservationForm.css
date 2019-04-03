@@ -6,7 +6,8 @@
 }
 
 input:disabled{
-    color: #e0c436;
+    color: #fe8100;
+    font-weight: bold; 
 }
 
 input:disabled:hover{

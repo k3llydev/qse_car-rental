@@ -103,6 +103,17 @@ class CustomSearchForm extends Component{
         })
     }
 
+    timeFormat = (d) => {
+        var seconds = Number(d) // 1000;
+        var dys = Math.floor(seconds / (3600*24));
+        seconds  -= dys*3600*24;
+        var hrs   = Math.floor(seconds / 3600);
+        seconds  -= hrs*3600;
+        var mnts = Math.floor(seconds / 60);
+        seconds  -= mnts*60;
+        return (dys+" dias, "+hrs+" horas y "+mnts+" minutos." );
+      }
+
     outputHours = () => {
         const start = "9:00"
         const end = "16:00"
@@ -151,19 +162,27 @@ class CustomSearchForm extends Component{
         var rentTime = this.state.rentTime
         var rentPlace = this.state.rentPlace
         var backPlace = this.state.backPlaceValue
+        var rentHour = this.state.rentHour
+        var backHour = this.state.backHour
 
         //UNSET FIRST
-        cookies.remove("startDate",startDate)
-        cookies.remove("endDate",endDate)
-        cookies.remove("rentTime", rentTime)
-        cookies.remove("rentPlace", rentPlace)
-        cookies.remove("backPlace", backPlace)
+        cookies.remove("startDate")
+        cookies.remove("endDate")
+        cookies.remove("rentTime")
+        cookies.remove("rentPlace")
+        cookies.remove("backPlace")
+        cookies.remove("rentHour")
+        cookies.remove("backHour")
+        cookies.remove("rentTimeLabel")
 
         cookies.set("startDate",startDate)
         cookies.set("endDate",endDate)
         cookies.set("rentTime", rentTime)
         cookies.set("rentPlace", rentPlace)
         cookies.set("backPlace", backPlace)
+        cookies.set("rentHour", rentHour)
+        cookies.set("backHour", backHour)
+        cookies.set("rentTimeLabel", this.timeFormat(rentTime))
     }
 
     render(){

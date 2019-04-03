@@ -7,10 +7,11 @@
 .TicketTitle{
     text-align: center;
     font-family: 'Museo';
-    background: #feb600;
+    background: #fe8100;
     border-radius: 15px 15px 0 0;
     display: block;
     padding: 1px;
+    color: #FFF;
 }
 
 .TicketContent{
