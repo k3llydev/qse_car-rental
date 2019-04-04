@@ -182,10 +182,9 @@ class AboutUs extends Component{
                   <img
                     width={360}
                     height={240}
-                    src="http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-Cancun.png"
+                    src="https://i.imgur.com/xZReXZq.png"
                     className="vc_single_image-img attachment-large"
                     alt
-                    srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-Cancun.png 360w, http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-Cancun-300x200.png 300w"
                     sizes="(max-width: 360px) 100vw, 360px"
                   />
                 </div>
@@ -239,10 +238,8 @@ class AboutUs extends Component{
                   <img
                     width={359}
                     height={240}
-                    src="http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-PuertoMorelos.png"
+                    src="https://i.imgur.com/KP3O5Lp.png"
                     className="vc_single_image-img attachment-large"
-                    alt
-                    srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-PuertoMorelos.png 359w, http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-PuertoMorelos-300x201.png 300w"
                     sizes="(max-width: 359px) 100vw, 359px"
                   />
                 </div>
@@ -297,10 +294,8 @@ class AboutUs extends Component{
                   <img
                     width={363}
                     height={240}
-                    src="http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-PlayaCarmen.png"
+                    src="https://i.imgur.com/zNiy4Zp.png"
                     className="vc_single_image-img attachment-large"
-                    alt
-                    srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-PlayaCarmen.png 363w, http://qserviceexp.com/new/wp-content/uploads/2018/11/Dest-PlayaCarmen-300x198.png 300w"
                     sizes="(max-width: 363px) 100vw, 363px"
                   />
                 </div>

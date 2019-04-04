@@ -10,7 +10,7 @@ class Services extends Component{
             <div>
             <div className="theme_header_slider">
   <link
-    href="http://fonts.googleapis.com/css?family=Ubuntu:700"
+    href="https://fonts.googleapis.com/css?family=Ubuntu:700"
     rel="stylesheet"
     property="stylesheet"
     type="text/css"
@@ -448,10 +448,9 @@ class Services extends Component{
                           <img
                             width={104}
                             height={104}
-                            src="http://qserviceexp.com/new/wp-content/uploads/2018/11/01.png"
+                            src="https://i.imgur.com/KAgHVri.png"
                             className="vc_single_image-img attachment-thumbnail"
                             alt
-                            srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/01.png 104w, http://qserviceexp.com/new/wp-content/uploads/2018/11/01-100x100.png 100w"
                             sizes="(max-width: 104px) 100vw, 104px"
                           />
                         </div>
@@ -495,10 +494,9 @@ class Services extends Component{
                           <img
                             width={102}
                             height={102}
-                            src="http://qserviceexp.com/new/wp-content/uploads/2018/11/02.png"
+                            src="https://i.imgur.com/Pk9CIn3.png"
                             className="vc_single_image-img attachment-thumbnail"
                             alt
-                            srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/02.png 102w, http://qserviceexp.com/new/wp-content/uploads/2018/11/02-100x100.png 100w"
                             sizes="(max-width: 102px) 100vw, 102px"
                           />
                         </div>
@@ -543,10 +541,9 @@ class Services extends Component{
                           <img
                             width={107}
                             height={107}
-                            src="http://qserviceexp.com/new/wp-content/uploads/2018/11/03.png"
+                            src="https://i.imgur.com/hGVAz8O.png"
                             className="vc_single_image-img attachment-thumbnail"
                             alt
-                            srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/03.png 107w, http://qserviceexp.com/new/wp-content/uploads/2018/11/03-100x100.png 100w"
                             sizes="(max-width: 107px) 100vw, 107px"
                           />
                         </div>
@@ -590,10 +587,9 @@ class Services extends Component{
                           <img
                             width={403}
                             height={870}
-                            src="http://qserviceexp.com/new/wp-content/uploads/2018/11/Auto-Beneficios.png"
+                            src="https://i.imgur.com/H6kP5P2.png"
                             className="vc_single_image-img attachment-full"
                             alt
-                            srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/Auto-Beneficios.png 403w, http://qserviceexp.com/new/wp-content/uploads/2018/11/Auto-Beneficios-139x300.png 139w"
                             sizes="(max-width: 403px) 100vw, 403px"
                           />
                         </div>
@@ -611,10 +607,9 @@ class Services extends Component{
                           <img
                             width={104}
                             height={104}
-                            src="http://qserviceexp.com/new/wp-content/uploads/2018/11/04.png"
+                            src="https://i.imgur.com/FqLz2Xh.png"
                             className="vc_single_image-img attachment-thumbnail"
                             alt
-                            srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/04.png 104w, http://qserviceexp.com/new/wp-content/uploads/2018/11/04-100x100.png 100w"
                             sizes="(max-width: 104px) 100vw, 104px"
                           />
                         </div>
@@ -658,10 +653,9 @@ class Services extends Component{
                           <img
                             width={103}
                             height={103}
-                            src="http://qserviceexp.com/new/wp-content/uploads/2018/11/05.png"
+                            src="https://i.imgur.com/VtyiZsV.png"
                             className="vc_single_image-img attachment-thumbnail"
                             alt
-                            srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/05.png 103w, http://qserviceexp.com/new/wp-content/uploads/2018/11/05-100x100.png 100w"
                             sizes="(max-width: 103px) 100vw, 103px"
                           />
                         </div>
@@ -705,10 +699,9 @@ class Services extends Component{
                           <img
                             width={102}
                             height={102}
-                            src="http://qserviceexp.com/new/wp-content/uploads/2018/11/06.png"
+                            src="https://i.imgur.com/X3cuteG.png"
                             className="vc_single_image-img attachment-thumbnail"
                             alt
-                            srcSet="http://qserviceexp.com/new/wp-content/uploads/2018/11/06.png 102w, http://qserviceexp.com/new/wp-content/uploads/2018/11/06-100x100.png 100w"
                             sizes="(max-width: 102px) 100vw, 102px"
                           />
                         </div>

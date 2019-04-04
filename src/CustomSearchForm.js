@@ -203,7 +203,7 @@ class CustomSearchForm extends Component{
 >
   <div className="motorespon">
     <div className="titulos">
-      <div className="tital">BUSCADOR</div>
+      <div className="tital">BUSCAR</div>
     </div>
     <div className="alquiler">
       <br /> &nbsp;

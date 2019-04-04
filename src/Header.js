@@ -8,6 +8,7 @@ import Contact from './Contact'
 import Services from './Services'
 import Vehicles from './Vehicles'
 import Reservation from './Reservation'
+import ReservationKey from './ReservationKey'
 
 function URLHandler({ match }) {
   switch(match.params.action){
@@ -30,6 +31,10 @@ function URLHandler({ match }) {
     default:
       return(<h1>404 - Not found</h1>);
   }
+}
+
+function ReservationKeyHandle({match}){
+  return <ReservationKey RK={match.params.key} />
 }
 
 function searchCar(){
@@ -153,6 +158,7 @@ class Header extends Component{
   <Route exact path="/" component={Home} />
   <Route exact path="/search/car/" component={searchCar} />
   <Route exact path="/:action/" component={URLHandler} />
+  <Route exact path="/reservation/:key" component={ReservationKeyHandle} />
   </Router>
       );
     }

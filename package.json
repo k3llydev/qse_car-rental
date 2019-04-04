@@ -2,7 +2,6 @@
   "name": "qService_Car_Rental",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/car",
   "dependencies": {
     "express": "^4.16.4",
     "express-favicon": "^2.0.1",

@@ -3,6 +3,7 @@ import {withRouter} from 'react-router'
 import './css/VehiclesStylesCorrections.css'
 import VehicleResults from './VehicleResults'
 import {VehicleCategories} from './CustomFormData'
+import ShowAllVehicles from './ShowAllVehicles'
 import * as qs from 'query-string';
 
 const parsedQuery = qs.parse(window.location.search, { ignoreQueryPrefix: true } );
@@ -65,7 +66,7 @@ class Vehicles extends Component{
 </div>
 
 <div className="high-padding">
-  {( displayState > 0 ? <VehicleResults category={category} /> : (displayState < 0 ? <h1>No hay resultados</h1> : <h1>Show all</h1> ) )}
+  {( displayState > 0 ? <VehicleResults category={category} /> : (displayState < 0 ? <h1>No hay resultados</h1> : <ShowAllVehicles /> ) )}
 </div>
 
 

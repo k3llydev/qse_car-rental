@@ -48,7 +48,7 @@ class ReservationForm extends Component{
         backDate: cookies.get("endDate"),
         backHour: cookies.get("backHour"),
         rentTime: cookies.get("rentTimeLabel"),
-        vehicle: this.props.vehicle,
+        vehicle: vd.label,
         features: JSON.stringify(vd.features),
         total: FinalPrice
       }
@@ -90,11 +90,7 @@ class ReservationForm extends Component{
 
 
     receivedConfirmation = (data) => {
-        // this.setState({
-        //     show: true,
-        //     key: data.key
-        // })
-        alert(data)
+        window.location.href="/reservation/"+data
     }
 
     formHandle = (event) => {
